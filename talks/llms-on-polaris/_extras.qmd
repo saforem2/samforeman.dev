@@ -1,0 +1,39 @@
+# ❤️ Thank you! {background-color="white"}
+
+- Organizers
+- Feel free to reach out!
+
+    <split even>
+
+    [<i class="fas fa-home"></i>](https://samforeman.me)
+    [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
+    [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
+
+    </split>
+
+::: {.callout-note icon=false title="🙏 Acknowledgements" collapse="false"}
+
+This research used resources of the Argonne Leadership Computing Facility,
+which is a DOE Office of Science User Facility supported under Contract
+DE-AC02-06CH11357.
+
+:::
+
+# Extras
+
+
+## Transformer Architecture
+
+::: {#fig-transformer style="height:auto; text-align:center;"}
+
+<img src="https://raw.githubusercontent.com/saforem2/llm-lunch-talk/main/docs/assets/diagrams/transformer.svg" width="20%" align="center">
+
+@vaswani2017attention
+
+:::
+
+# References
+
+::: {#refs}
+:::
+

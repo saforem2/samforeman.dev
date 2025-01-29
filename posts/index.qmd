@@ -1,0 +1,56 @@
+---
+title: "📬 Posts"
+# toc: false
+# page-layout: article
+# format: html
+# toc: false
+editor:
+   render-on-save: true
+# page-layout: full
+# metadata_files:
+#   - ./posts.yml
+# listing: posts.yml
+# listing:
+#   sort: "date desc"
+#   id: listing-posts
+#   filter-ui: false
+#   type: table
+#   contents: "./posts.yml"
+# format:
+#   html:
+#     page-layout: full
+listing:
+  table-striped: true
+  id: listing-posts
+  sort: "date desc"
+  filter-ui: true
+  sort-ui: true
+  type: table
+  table-hover: true
+  fields: [title, date, categories]
+  categories: true
+  date-format: iso
+  # field-display-names: false
+  field-display-names:
+      date: "<b>When</b>"
+      title: "<b>What</b>"
+      # categories: ""
+      # categories: "&nbsp;"
+  contents:
+    - "../posts/**/index.qmd"
+    - "!../posts/index.qmd"
+    - "!../posts/ai-for-physics/l2hmc-qcd/index.qmd"
+    - "!../posts/ai-for-physics/l2hmc-qcd/l2hmc/index.qmd"
+    - "!../posts/jupyter/index.qmd"
+    - "!../posts/ai-for-physics/index.qmd"
+    - "!../posts/AuroraGPT/index.qmd"
+---
+
+## 🔥 Hot off the Press 📰
+
+:::: {.feature}
+
+::: {#listing-posts}
+:::
+
+::::

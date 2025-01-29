@@ -1,0 +1,154 @@
+strip-comments: true
+  # - ../static/fonts/IosevkaDisplaySFTerminalss15Custom
+  # - ../static/fonts/IosevkaKitty/IosevkaKitty.css
+resources:
+  - ../static/fonts/IosevkaQP/TTF/
+  # - static/fonts/IosevkaDisplay/
+  - static/fonts/IosevkaTerm/TTF/
+  # - static/fonts/IosevkaSF/
+  # - static/fonts/IosevkaDisplaySF/
+  # - static/fonts/IosevkaDisplaySF
+  # - static/fonts/IosevkaTermSF/
+  # - static/fonts/IosevkaAile/
+format:
+  html:
+    date-modified: last-modified
+    link-external-newwindow: true
+    link-external-icon: false
+    # mainfont: "IosevkaQP Web"
+    # monofont: "IosevkaTerm Web"
+    # mainfont: "Iosevka DisplaySF QP Web"
+    # monofont: "IosevkaDisplaySFTerminalss15Custom Web"
+    # mainfont: "IosevkaAileDisplaySFQPss15 Web"
+    # monofont: "Iosevka Custom Web"
+    callout-appearance: simple
+    code-tools: true
+    code-link: true
+    code-line-numbers: true
+    toc: true
+    self-contained: false
+    default-image-extension: svg
+    toc-title: ""
+    grid:
+      body-width: 900px
+    fig-align: center
+    fig-responsive: true
+    anchor-sections: true
+    highlight-style:
+      light: github
+      dark: github-dark
+    code-overflow: scroll
+    code-copy: hover
+    code-summary: " "
+    html-math-method: katex
+      # method: katex
+      # # url: /includes/katex/
+    citations-hover: true
+    footnotes-hover: true
+    crossrefs-hover: true
+    css:
+      - css/custom.css
+      - css/svgbob.css
+      - static/fonts/IosevkaTerm/IosevkaTerm.css
+      - static/fonts/IosevkaQP/IosevkaQP.css
+      - css/colors-oklch.min.css
+      - static/fonts/IosevkaQP/IosevkaQP.css
+      - static/fonts/IosevkaTerm/IosevkaTerm.css
+    section-divs: true
+    theme:
+      dark:
+        - css/theme.scss
+        - css/dark.scss
+        - css/syntax-dark.scss
+        - css/callout-cards.scss
+        - default
+      light:
+        - css/theme.scss
+        - css/light.scss
+        - css/syntax-light.scss
+        - css/callout-cards.scss
+        - default
+    include-in-header:
+      - text: | # Google Tag Manager
+          <!-- Google Tag Manager -->
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
+          <!-- End Google Tag Manager -->
+      - text: | # Google Fonts
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed+IBM+Plex+Mono&display=swap">
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap">
+    include-before-body:
+      - text: |
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
+
+  gfm:
+    toc: true
+  revealjs:
+    comments: false
+    # font-family-monospace: "IosevkaDisplaySFTerminalss15Custom"
+
+    # width: 1024
+    # height: 768
+    include-in-header:
+      - text: |
+          <!-- Google Tag Manager -->
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
+          <!-- End Google Tag Manager -->
+      - text: | # Google Fonts
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed+IBM+Plex+Mono&display=swap">
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap">
+    include-before-body:
+      - text: |
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
+    background-color: white
+    output-file: "slides.html"
+    navigation-mode: linear
+    slide-number: c
+    chalkboard:
+      buttons: false
+    auto-animate: true
+    touch: true
+    pause: false
+    footnotes-hover: true
+    citations-hover: true
+    preview-links: true
+    controls-tutorial: true
+    controls: false
+    logo: "/assets/anl.svg"
+    history: false
+    code-line-numbers: true
+    highlight-style: "atom-one"
+    center: true
+    default-image-extension: svg
+    code-overflow: scroll
+    html-math-method: katex
+    css:
+      - css/custom.css
+      - css/svgbob.css
+      - static/fonts/IosevkaTerm/IosevkaTerm.css
+      - static/fonts/IosevkaQP/IosevkaQP.css
+      - css/colors-oklch.min.css
+    # theme:
+    #   - css/title-slide-template.scss
+    #   - white
+
+    theme:
+      # - light:
+      - css/title-slide-template.scss
+      - css/pdf.scss
+      - css/reveal.scss
+      # - css/common.scss
+      - css/light.scss
+      # - css/syntax-light.scss
+      - css/callout-cards.scss
+      - css/global.scss
+      - white

@@ -1,0 +1,263 @@
+---
+date: today
+modified: last-modified
+author: "Sam Foreman"
+site-url: "https://samforeman.dev"
+repo-actions: false
+appendix-site-as: false
+body-footer: |
+    <img src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.me&count_bg=%23838383&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false'>
+code-tools: false
+citation: false
+toc: false
+reference-location: section
+reference-links: true
+sidebar: false
+comments: false
+format:
+  # <!-- comments: -->
+  # <!--   giscus: -->
+  #<!--     repo: saforem2/personal_site -->
+  html:
+    #850px page-layout: article
+    css:
+      - css/profile.css
+    # grid:
+    #   body-width: 800px
+  gfm:
+    output-file: "README.md"
+format-links: false
+listing:
+  - id: listing-posts
+    sort: "date desc"
+    filter-ui: false
+    sort-ui: false
+    type: table
+    date-format: iso
+    feed: true
+    table-striped: true
+    table-hover: true
+    # categories: posts
+    fields: [title, date]
+    field-display-names:
+        date: "When"
+        title: "What"
+        # categories: "&nbsp;"
+    contents:
+        - "posts/**/index.qmd"
+        - "!./posts/AuroraGPT/index.qmd"
+        - "!./posts/ai-for-physics/index.qmd"
+        - "!./posts/ai-for-physics/l2hmc-qcd/index.qmd"
+        - "!posts/index.qmd"
+        - "!posts/l2hmc-qcd/index.qmd"
+        - "!posts/l2hmc-qcd/l2hmc/index.qmd"
+        - "!posts/jupyter/index.qmd"
+        - "!drafts/"
+
+  - id: listing-talks
+    sort: "date desc"
+    filter-ui: false
+    feed: true
+    sort-ui: false
+    date-format: iso
+    type: table
+    table-hover: true
+    # table-responsive: true
+    table-striped: true
+    fields: [title, location, date]
+    # categories: talks
+    field-display-names:
+        title: "What"
+        location: "Where"
+        # categories: "&nbsp;"
+        date: "When"
+    contents:
+        - "!talks/test/"
+        - "!talks/index.qmd"
+        - "talks/**/index.qmd"
+        - "talks/**/AuroraGPT/**/index.qmd"
+        - "!./drafts/"
+# footer: false
+# filters:
+  # - pyodide
+# editor:
+# title: "Sam Foreman"
+#   render-on-save: true
+# reference-location: block
+# image-height: 75pt
+---
+
+::: {style="font-size:1.0em; text-align: center;"}
+
+[![](./assets/avatar.webp)]{.profile-avatar style="width: 100%; border: 0px solid var(--bg-border)!important;"}
+
+[[👋 Hi, I'm Sam!]{.dim-text} [[{{< ai orcid >}}]{.orcid-green style="background: none!important;"}](https://orcid.org/0000-0002-9981-0876)]{style="font-size: 1.5rem; color: var(--dim-text)!important; padding-bottom: 0pt; font-weight: 400;"}
+
+::: {style="display: flex; flex-direction: row; align-items: center; text-align: center!important; justify-content: center; background-color: var(--link-bg-color);"}
+
+[[{{< iconify ph house inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://samforeman.me)
+[[{{< iconify ph github-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://github.com/saforem2/)
+[[{{< iconify ph twitter-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.twitter.com/saforem2)
+[[{{< iconify ph envelope-open inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](mailto:///foremans@anl.gov)
+[[{{< iconify ph graduation-cap inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)
+[[{{< iconify ph spotify-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://open.spotify.com/user/saforem2)
+[[{{< iconify ph lastfm-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.last.fm/user/saforem2)
+[[{{< iconify ph linkedin-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://linkedin.com/in/saforem2)
+[[{{< iconify ph calendar-plus inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://outlook.office.com/bookwithme/user/450ab3e5d58a4e7f84c802cc4c7205e6@anl.gov?anonymous&ep=plink)
+
+:::
+
+:::
+
+::: {.panel-tabset style="justify-content: center;"}
+
+### 🧑🏻‍💻 About {#sec-about}
+
+{{< include about/_about.qmd >}}
+
+<!-- ::: {.callout-tip icon=false aria-title="✏️ Status" title='[✏️ Status]{.dim-text}' collapse="true" style="text-align: left!important; width:100%; background-color:rgba(131,131,131,0.05)!important; border: 1px solid rgba(131,131,131,0.0); opacity:100%;"} -->
+::: {.callout-tip icon=false aria-title="✏️ Status" title='[👀 More]{.dim-text}' collapse="true" style="text-align: left!important; width:100%; background-color:rgba(131,131,131,0.05)!important; border: 1px solid rgba(131,131,131,0.0); opacity:100%;"}
+
+- <details closed><summary>👀 <strong>If you're curious</strong></summary>  
+
+  - <details closed><summary>🔥 What I work on</summary>
+
+    As a member of the [AI / ML Group](https://www.alcf.anl.gov/about/people/group/506) at
+    [ALCF](https://alcf.anl.gov), I work on:
+
+    ::: {.flex-container}
+
+    ::: {.flex-container}
+
+    - 🤖 🧪 [AI + Science](https://github.com/saforem2/)
+
+    - 🎲 [Building better sampling methods for Lattice QCD](https://github.com/saforem2/l2hmc-qcd)
+
+    - 🧬 [Genome-Scale Language Models](https://www.biorxiv.org/content/10.1101/2022.10.10.511571v2)
+
+        - [{{< iconify logos github-octocat >}} GenSLM](https://github.com/ramanathanlab/genslm)
+
+        - 🥇 [ACM Gordon Bell Special Prize](https://www.acm.org/media-center/2022/november/gordon-bell-special-prize-covid-research-2022)
+
+    :::
+
+    ::: {.flex-container}
+
+    - 🌍 [Foundation models for long term climate forecasting](https://saforem2.github.io/climate-analysis)
+
+    - 🏃‍♂️ [Scaling Large Language Models](https://github.com/argonne-lcf/Megatron-DeepSpeed)
+
+    - 🏎️ [Distributed training across thousands of GPUs](https://github.com/argonne-lcf/mlprof)
+
+    :::
+
+    :::
+
+    </details>
+
+  - <details closed><summary>📍 How I got here</summary>
+
+    [NOTE: Update the **NEW** text below !!]: #
+
+    My [current research](https://saforem2.github.io/l2hmc-qcd) focuses on
+    using deep generative modeling to help build better sampling algorithms
+    in lattice gauge theory. In particular, I'm interested in building gauge
+    equivariant neural network architectures and using inductive priors to
+    incorporate physical symmetries into machine learning models.
+
+    I received my PhD in Physics from the University of Iowa in 2019 and my thesis
+    was on
+    [Learning Better Physics: A Machine Learning Approach to Lattice Gauge Theory](https://iro.uiowa.edu/esploro/outputs/doctoral/Learning-better-physics-a-machine-learning/9983776792002771).
+
+    Prior to this, I completed two bachelors degrees (Engineering Physics and
+    Applied Mathematics, 2015) at The University of Illinois at
+    Urbana-Champaign. My undergraduate dissertation was titled 
+    [Energy Storage in Quantum Resonators](https://aip.scitation.org/doi/10.1063/1.5009698)
+    and was
+    supervised by Professor 
+    [Alfred Hübler](https://en.wikipedia.org/wiki/Alfred_H%C3%BCbler)
+    within the Center for Complex Systems Research at UIUC.
+
+    This work ultimately resulted in a [patent](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vV_1zDwAAAAJ&pagesize=80&citation_for_view=vV_1zDwAAAAJ:SeFeTyx0c_EC) !!
+
+    </details>
+
+</details>
+
+
+[yellow]{.highlight} [pink]{.highlight-pink}
+[green]{.highlight-green} [blue]{.highlight-blue}
+[circle]{.circle-sketch-highlight}
+
+<!--
+```{pyodide-python}
+-->
+
+```{python}
+#| output: asis
+import datetime
+from rich import print
+now = datetime.datetime.now()
+day = now.strftime("%Y-%m-%d")
+time = now.strftime("%H:%M:%S")
+print(' '.join([
+    "[#838383]Last Updated[/]:",
+    f"[#E599F7]{day}[/]",
+    "[#838383]@[/]",
+    f"[#00CCFF]{time}[/]"
+]))
+```
+
+::: {style="text-align:center;"}
+[© Copyright [Sam Foreman](https://samforeman.me)]{.dim-text}
+
+<img src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.me&count_bg=%23838383&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false'>
+:::
+
+:::
+
+### 📝 Work
+
+::: {.callout-note collapse=true icon=false title="" style="background-color: oklch(from var(#4582ec) calc(l * 1.15) c h / 0.1);"}
+[You can find a full list of my publications on my [Google Scholar](https://scholar.google.com/citations?user=vV_1zDwAAAAJ&hl=en)]{style="color:#4582ec;"}
+:::
+
+{{< include about/_work.qmd >}}
+
+### 🦜 Talks
+
+::: {.callout-note collapse=true icon=false title=""}
+See 'em all, live: [Talks](/talks/index.qmd)
+:::
+
+::: {.callout-tip collapse=true title="[HTML ⇆ Reveal.js]{style='color:#03A669;'}" style="background-color: oklch(from #03A669 calc(l * 1.15) c h / 0.1);"}
+Convert from HTML to slideshow version of a page by appending `/slides` to the
+end of its URL, e.g.
+
+- HTML: <https://samforeman.me/talks/ai-for-science-2024/>
+- Slides: <https://samforeman.me/talks/ai-for-science-2024/slides>
+:::
+
+::: {#listing-talks}
+:::
+
+{{< include talks/_talks.qmd >}}
+
+### 📬 Posts
+
+::: {#listing-posts}
+:::
+
+### 📦 Projects
+
+{{< include projects/_projects.qmd >}}
+
+### 🪖 Experience
+
+{{< include about/_experience.qmd >}}
+
+### 🎶 Music
+
+{{< include about/_music.qmd >}}
+
+:::

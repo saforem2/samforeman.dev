@@ -1,0 +1,76 @@
+---
+title: "🦜 Recent Talks"
+toc: false
+metadata_files:
+  - ./_metadata.yml
+editor:
+   render-on-save: true
+format:
+  html:
+    page-layout: article
+    grid:
+      body-width: 900px
+listing:
+  # - id: listing-talks
+  #   table-striped: true
+  #   sort: "date desc"
+  #   type: table
+  #   filter-ui: false
+  #   contents:
+  #       - "../talks/**/index.qmd"
+  #       - "!../talks/index.qmd"
+  - id: listing-talks-default
+    sort: "date desc"
+    filter-ui: false
+    sort-ui: false
+    date-format: iso
+    type: grid
+    grid-item-align: center
+    # image-height: 80px
+    image-align: left
+    # image-height: 75px
+    table-hover: true
+    table-striped: true
+    fields: [image, title, location, date]
+    contents:
+        - "../talks/**/index.qmd"
+        - "../talks/AuroraGPT/**/index.qmd"
+        - "!../talks/test/index.qmd"
+        - "!../talks/index.qmd"
+    field-display-names:
+        title: ""
+        author: ""
+        date: ""
+        location: "@"
+        # title: "What"
+        # location: ""
+        # location: "Where"
+        # date: "When"
+# sidebar: true
+# toc: false
+# page-layout: article
+# format:
+#   html:
+#     page-layout: full
+#     # page-layout: article
+#     # grid:
+#     #   body-width: 850px
+---
+
+::: {.callout-tip collapse=true title="[HTML ⇆ Reveal.js]{style='color:#03A669;'}" style="background-color: oklch(from #03A669 calc(l * 1.15) c h / 0.1);"}
+Convert from HTML to slideshow version of a page by appending `/slides` to the
+end of its URL, e.g.
+
+- HTML: <https://samforeman.me/talks/ai-for-science-2024/>
+- Slides: <https://samforeman.me/talks/ai-for-science-2024/slides>
+
+:::
+
+::: {.callout-tip icon=false aria-title="Recent Talks" title='🎤 [Recent Talks]{.dim-text style="font-size:1.0em!important;"}' collapse="false" style="text-align: left!important; width: 100%; background-color:rgba(131,131,131,0.05)!important; opacity:100%;"}
+[\[[here](/talks/index.qmd)\] ( \+ how I [make them](/posts/dope-slides/index.qmd)! )]{.dim-text style="font-size:1em;"}
+:::
+
+::: {#listing-talks-default}
+:::
+
+{{< include _talks.qmd >}}

@@ -1,0 +1,88 @@
+# title: "Sam Foreman"
+# date: last-modified
+lightbox: true
+# filters:
+#   - collapse-social-embeds
+# date: today
+# author-title: ""
+# affiliation-title: ""
+# location-title: ""
+# published-title: ""
+# modified-title: ""
+title-block-categories: true
+number-sections: false
+image-lazy-loading: true
+bibliography: references.bib
+# appendix-cite-as: display
+favicon: "favicon.svg"
+# twitter-card: true
+site-url: "https://samforeman.me"
+citeproc: true
+project:
+  type: website
+  output-dir: "docs"
+  preview:
+    port: 4209
+  render:
+    - "index.qmd"
+    - "./posts/**/*.qmd"
+    - "./slides/**/*.qmd"
+    - "./talks/**/*.qmd"
+    - "!*old*"
+    - "!/drafts/"
+    # - "./qmd/**/*.qmd"
+    # - "https://github.com/saforem2/l2hmc-qcd/blob/main/qmd/diffusion/diffusion.qmd"
+  resources:
+    - ./static/files/resume.pdf
+    - ./static/files/superconductivity.pdf
+    - ./static/files/oneapi-talk/
+    # - ./static/fonts/IosevkaTerm/TTF/*.ttf
+    # - ./static/fonts/IosevkaTerm/WOFF2/*.woff2
+    # - ./static/fonts/IosevkaSansQpSF/TTF/*.ttf
+    # - ./static/fonts/IosevkaSansQpSF/WOFF2/*.woff2
+    # - ./static/fonts/**/**/*.woff2
+# author:
+#   name: "[Sam Foreman]{.dim-text} [[{{< ai orcid >}}]{.orcid-green}](https://orcid.org/0000-0002-9981-0876)"
+#   url: https://samforeman.me
+#   email: foremans@anl.gov
+#   # affiliation: \[ALCF\]
+#   # affiliation-url: https://alcf.anl.gov/about/people/sam-foreman
+affiliation: "[ALCF](https://alcf.anl.gov/about/people/sam-foreman)"
+author:
+  # name: "[Sam Foreman](https://samforeman.me) [[{{< ai orcid >}}]{.orcid-green}](https://orcid.org/0000-0002-9981-0876)"
+  name: "Sam Foreman"
+  url: "https://samforeman.me"
+  email: "foremans@anl.gov"
+  affiliation: "[ALCF](https://alcf.anl.gov/about/people/sam-foreman)"
+  affiliation-url: "https://alcf.anl.gov/about/people/sam-foreman"
+# orcid: 0000-0002-9981-0876
+citation: true
+# citation:
+#   author: Sam Foreman
+#   type: webpage
+#   url: https://samforeman.me
+execute:
+  # keep-ipynb: true
+  # keep-md: true
+  freeze: auto
+# header-includes: |
+#     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+#     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+#     <script>
+#         $(document).ready
+#         (
+#           function()
+#           {
+#                 twemoji.parse(document.body);
+#           }
+#         );
+#     </script>
+
+google-scholar: true
+metadata-files:
+  - quarto/_website.yml
+  - quarto/_format.yml
+  # - posts/_metadata.yml
+  # - posts/_metadata.yml
+  # - talks/_metadata.yml
+  # - _reveal.yml
