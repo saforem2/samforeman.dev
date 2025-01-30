@@ -14,7 +14,7 @@ number-sections: false
 image-lazy-loading: true
 bibliography: references.bib
 # appendix-cite-as: display
-favicon: "favicon.svg"
+# favicon: "favicon.svg"
 # twitter-card: true
 site-url: "https://samforeman.me"
 citeproc: true
@@ -36,6 +36,7 @@ project:
     - ./static/files/resume.pdf
     - ./static/files/superconductivity.pdf
     - ./static/files/oneapi-talk/
+    - ./assets/favicon/
     # - ./static/fonts/IosevkaTerm/TTF/*.ttf
     # - ./static/fonts/IosevkaTerm/WOFF2/*.woff2
     # - ./static/fonts/IosevkaSansQpSF/TTF/*.ttf
