@@ -66,9 +66,9 @@ Sam Foreman
   - 
     [`argonne-lcf/ALCF_Hands_on_HPC_Workshop`](https://github.com/argonne-lcf/ALCF_Hands_on_HPC_Workshop)
 - Slides @
-  [samforeman.me/talks/alcf-hpc-workshop-2024/slides](https://samforeman.me/talks/alcf-hpc-workshop-2024/slides)
+  [samforeman.dev/talks/alcf-hpc-workshop-2024/slides](https://samforeman.dev/talks/alcf-hpc-workshop-2024/slides)
   - HTML Version:
-    [samforeman.me/talks/alcf-hpc-workshop-2024](https://samforeman.me/talks/alcf-hpc-workshop-2024)
+    [samforeman.dev/talks/alcf-hpc-workshop-2024](https://samforeman.dev/talks/alcf-hpc-workshop-2024)
 
 ## 🚀 Scaling: Overview
 
@@ -1552,7 +1552,7 @@ Figure 29: Example: Training a LLM to talk like Shakespeare using
 
   <split even>
 
-  [<i class="fas fa-home"></i>](https://samforeman.me)
+  [<i class="fas fa-home"></i>](https://samforeman.dev)
   [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
   [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 

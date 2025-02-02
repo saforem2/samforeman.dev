@@ -18,7 +18,7 @@ Sam Foreman
 
 ## 🍋 `ezpz` v1
 
-[Sam Foreman](https://samforeman.me)  
+[Sam Foreman](https://samforeman.dev)  
 *2024-05-14*
 
 ### 👀 Overview

@@ -6,8 +6,8 @@ website:
   image: assets/thumbnail.png
   favicon: assets/favicon.svg
   page-navigation: true
-  # google-analytics: G-XVM2Y822Y1
-  google-analytics: GTM-TL25HPPF
+  google-analytics: G-XVM2Y822Y1
+  # google-analytics: GTM-TL25HPPF
   repo-url: https://github.com/saforem2/personal_site
   repo-actions: [source, edit, issue]
   # back-to-top-navigation: true
@@ -91,6 +91,6 @@ website:
         aria-label: RSS
         text: "[{{< iconify ph rss >}}]{.icon .dim-text style='font-size: 1.25rem;'}"
   sidebar: false
-    #       <!-- Google Tag Manager -->
-    #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-    #       <!-- End Google Tag Manager -->
+  #       <!-- Google Tag Manager -->
+  #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
+  #       <!-- End Google Tag Manager -->

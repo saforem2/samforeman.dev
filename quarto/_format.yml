@@ -89,6 +89,20 @@ format:
     #     - css/syntax-light.scss
     #     - css/callout-cards.scss
     #     - default
+    # include-in-header:
+    #   - text: | # Google Tag Manager
+    #       <!-- Google Tag Manager -->
+    #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
+    #       <!-- End Google Tag Manager -->
+    # include-before-body:
+    #   - text: |
+    #       <!-- Google Tag Manager (noscript) -->
+    #       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    #       <!-- End Google Tag Manager (noscript) -->
+    #   - text: |
+    #       <!-- 100% privacy-first analytics -->
+    #       <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    #       <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
     include-in-header:
       - text: | # Google Fonts
           <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -168,6 +182,19 @@ format:
           <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
           <meta name="apple-mobile-web-app-title" content="samforeman" />
           <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+      # - text: | # Google Tag Manager
+      #     <!-- Google Tag Manager -->
+      #     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
+      #     <!-- End Google Tag Manager -->
+    include-before-body:
+      # - text: |
+      #     <!-- Google Tag Manager (noscript) -->
+      #     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      #     <!-- End Google Tag Manager (noscript) -->
+      - text: |
+          <!-- 100% privacy-first analytics -->
+          <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+          <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
     #   - text: | # Google Tag Manager
     #       <!-- Google Tag Manager -->
     #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
