@@ -76,35 +76,16 @@ format:
     highlight-style:
       dark: style/rainbow/rainbow-dark.theme
       light: style/rainbow/rainbow-light.theme
-    # theme:
-    #   dark:
-    #     - css/theme.scss
-    #     - css/dark.scss
-    #     - css/syntax-dark.scss
-    #     - css/callout-cards.scss
-    #     - default
-    #   light:
-    #     - css/theme.scss
-    #     - css/light.scss
-    #     - css/syntax-light.scss
-    #     - css/callout-cards.scss
-    #     - default
-    # include-in-header:
-    #   - text: | # Google Tag Manager
-    #       <!-- Google Tag Manager -->
-    #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-    #       <!-- End Google Tag Manager -->
-    # include-before-body:
-    #   - text: |
-    #       <!-- Google Tag Manager (noscript) -->
-    #       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    #       <!-- End Google Tag Manager (noscript) -->
-    #   - text: |
-    #       <!-- 100% privacy-first analytics -->
-    #       <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    #       <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
+    include-before-body:
+      - text: |
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL25HPPF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
     include-in-header:
-      - text: | # Google Fonts
+      - text: |
+          <!-- Google Tag Manager -->
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
+          <!-- End Google Tag Manager -->
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -116,18 +97,10 @@ format:
           <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
           <meta name="apple-mobile-web-app-title" content="samforeman" />
           <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-    #   - text: | # Google Tag Manager
-    #       <!-- Google Tag Manager -->
-    #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
-    #       <!-- End Google Tag Manager -->
-    # include-in-body:
-    #   - text: | # Google Tag Manager
-    #         <!-- Google Tag Manager (noscript) -->
-    #         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL25HPPF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    #         <!-- End Google Tag Manager (noscript) -->
 
   gfm:
     toc: true
+
   revealjs:
     comments: false
     background-color: white
@@ -169,8 +142,16 @@ format:
       - style/syntax-light.scss
       # - style/global.scss
       - white
+    include-before-body:
+      - text: |
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL25HPPF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
     include-in-header:
-      - text: | # Google Fonts
+      - text: |
+          <!-- Google Tag Manager -->
+          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
+          <!-- End Google Tag Manager -->
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -182,25 +163,23 @@ format:
           <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
           <meta name="apple-mobile-web-app-title" content="samforeman" />
           <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-      # - text: | # Google Tag Manager
-      #     <!-- Google Tag Manager -->
-      #     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-      #     <!-- End Google Tag Manager -->
-    include-before-body:
-      # - text: |
-      #     <!-- Google Tag Manager (noscript) -->
-      #     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      #     <!-- End Google Tag Manager (noscript) -->
-      - text: |
           <!-- 100% privacy-first analytics -->
           <script data-collect-dnt="true" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
           <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true" alt="" referrerpolicy="no-referrer-when-downgrade"/></noscript>
-    #   - text: | # Google Tag Manager
-    #       <!-- Google Tag Manager -->
-    #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
-    #       <!-- End Google Tag Manager -->
-    # include-in-body:
-    #   - text: | # Google Tag Manager
-    #         <!-- Google Tag Manager (noscript) -->
-    #         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL25HPPF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    #         <!-- End Google Tag Manager (noscript) -->
+# - text: | # Google Tag Manager
+#     <!-- Google Tag Manager -->
+#     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
+#     <!-- End Google Tag Manager -->
+# - text: |
+#     <!-- Google Tag Manager (noscript) -->
+#     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+#     <!-- End Google Tag Manager (noscript) -->
+#   - text: | # Google Tag Manager
+#       <!-- Google Tag Manager -->
+#       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
+#       <!-- End Google Tag Manager -->
+# include-in-body:
+#   - text: | # Google Tag Manager
+#         <!-- Google Tag Manager (noscript) -->
+#         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL25HPPF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+#         <!-- End Google Tag Manager (noscript) -->

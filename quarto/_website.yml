@@ -8,7 +8,7 @@ website:
   page-navigation: true
   google-analytics: G-XVM2Y822Y1
   # google-analytics: GTM-TL25HPPF
-  repo-url: https://github.com/saforem2/personal_site
+  repo-url: https://github.com/saforem2/samforeman.dev
   repo-actions: [source, edit, issue]
   # back-to-top-navigation: true
   comments:
