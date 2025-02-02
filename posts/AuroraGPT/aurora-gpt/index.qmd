@@ -9,7 +9,7 @@ citation:
   author: Sam Foreman
   type: webpage
   title: "Megatron DeepSpeed on `xpu`"
-  url: https://samforeman.me/qmd/aurora-gpt/megatron-ds-intel.html
+  url: https://samforeman.dev/qmd/aurora-gpt/megatron-ds-intel.html
 editor:
   render-on-save: true
 execute:

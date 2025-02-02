@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://samforeman.dev/talks/llms-on-polaris/index.html</loc>
-    <lastmod>2025-01-29T13:55:46.076Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.352Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/llms-on-polaris/slides.html</loc>
-    <lastmod>2025-01-29T13:55:46.076Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.352Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/lattice23/index.html</loc>
-    <lastmod>2025-01-29T14:45:22.286Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.344Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/lattice23/slides.html</loc>
-    <lastmod>2025-01-29T14:45:22.286Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.344Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/hpc-user-forum/index.html</loc>
-    <lastmod>2025-01-29T13:55:46.361Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.346Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/hpc-user-forum/slides.html</loc>
-    <lastmod>2025-01-29T13:55:46.361Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.346Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/ai-for-science-2024/index.html</loc>
-    <lastmod>2025-01-29T13:55:46.108Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.337Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/ai-for-science-2024/slides.html</loc>
-    <lastmod>2025-01-29T13:55:46.108Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.337Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/svgbob/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.582Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.363Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/ezpz-v1/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.677Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.380Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/dope-slides/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.584Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.369Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/ai-for-physics/l2hmc-qcd/4dSU3/index.html</loc>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://samforeman.dev/posts/AuroraGPT/startup-times/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.604Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.366Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/AuroraGPT/mpi4py-reproducer/index.html</loc>
@@ -66,15 +66,15 @@
   </url>
   <url>
     <loc>https://samforeman.dev/posts/AuroraGPT/aurora-gpt/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.628Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.374Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/index.html</loc>
-    <lastmod>2025-01-29T14:54:56.466Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.404Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/AuroraGPT/checkpoints/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.603Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.377Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/AuroraGPT/flash-attn-sunspot/index.html</loc>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://samforeman.dev/posts/AuroraGPT/spike-skipper/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.600Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.361Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/ai-for-physics/diffusion/index.html</loc>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://samforeman.dev/posts/ezpz-at-alcf/index.html</loc>
-    <lastmod>2025-01-29T13:55:40.575Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.383Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/posts/index.html</loc>
@@ -110,30 +110,30 @@
   </url>
   <url>
     <loc>https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides.html</loc>
-    <lastmod>2025-01-29T19:22:13.426Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.395Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/index.html</loc>
-    <lastmod>2025-01-29T19:22:13.426Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.395Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/alcf-hpc-workshop-2024/slides.html</loc>
-    <lastmod>2025-01-29T13:55:46.612Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.388Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/alcf-hpc-workshop-2024/index.html</loc>
-    <lastmod>2025-01-29T13:55:46.612Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.388Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/index.html</loc>
-    <lastmod>2025-01-29T13:55:46.498Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.356Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/llms-at-scale/slides.html</loc>
-    <lastmod>2025-01-29T14:45:05.925Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.349Z</lastmod>
   </url>
   <url>
     <loc>https://samforeman.dev/talks/llms-at-scale/index.html</loc>
-    <lastmod>2025-01-29T14:45:05.925Z</lastmod>
+    <lastmod>2025-02-01T21:38:07.349Z</lastmod>
   </url>
 </urlset>

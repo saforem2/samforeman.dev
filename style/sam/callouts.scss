@@ -1,0 +1,209 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+.callout {
+  width: 100%;
+  margin-block-end: 0.5rem;
+}
+
+.callout .callout-title-container {
+  overflow-wrap: anywhere;
+  padding-block-end: 5pt;
+}
+
+.callout.callout-style-simple,
+.callout.callout-style-default {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  padding: 0pt 5pt;
+  margin-block-end: 0.5rem;
+}
+
+.callout.callout-style-simple:not(.no-icon) div.callout-icon-container {
+  padding-inline-end: 5pt;
+  padding-block: 1pt;
+}
+
+.callout .callout-body-container {
+  padding-block: unset;
+  padding-bottom: unset;
+}
+
+
+.callout:not(.callout-titled) .callout-body> :last-child,
+.callout:not(.callout-titled) .callout-body>div> :last-child {
+  margin-block: auto;
+  font-size: 1rem;
+  opacity: 100%;
+  display: inline-block;
+  padding-inline: 2pt;
+  margin-top: unset;
+}
+
+.callout:not(.callout-titled) .callout-body> :first-child,
+.callout:not(.callout-titled) .callout-body>div> :first-child {
+  padding-inline-end: 2pt;
+}
+
+
+.callout:not(.callout-titled) .callout-body> :last-child,
+.callout:not(.callout-titled) .callout-body>div> :last-child {
+  margin-bottom: unset;
+  padding-bottom: unset;
+}
+
+div.callout-tip.callout {
+  border-left-color: rgba(0, 0, 0, 0);
+  background: oklch(from #02b875 calc(l * 1.15) c h/0.1)
+}
+
+div.callout-tip.callout:hover {
+  border: 1px solid #02b875
+}
+
+div.callout-note.callout {
+  border-left-color: rgba(0, 0, 0, 0);
+  background: oklch(from #4582ec calc(l * 1.15) c h/0.1)
+}
+
+div.callout-note.callout:hover {
+  border: 1px solid #4582ec
+}
+
+div.callout-caution.callout {
+  border-left-color: rgba(0, 0, 0, 0);
+  background: oklch(from #FF3BD3 calc(l * 1.15) c h/0.1)
+}
+
+div.callout-caution.callout:hover {
+  border: 1px solid #ff3bd3
+}
+
+div.callout-important.callout {
+  border-left-color: rgba(0, 0, 0, 0);
+  background: oklch(from #ff5252 calc(l * 1.15) c h/0.1)
+}
+
+div.callout-important.callout:hover {
+  border: 1px solid #ff5252
+}
+
+div.callout-warning.callout {
+  border-left-color: rgba(0, 0, 0, 0);
+  background: oklch(from #fd971f calc(l * 1.15) c h/0.1)
+}
+
+div.callout-warning.callout:hover {
+  border: 1px solid #fd971f
+}
+
+div.callout-warning.callout .callout .callout-title-container {
+  overflow-wrap: anywhere;
+  color: #fd971f
+}
+
+div.callout-important.callout .callout .callout-title-container {
+  overflow-wrap: anywhere;
+  color: #ff5252
+}
+
+div.callout-note.callout-style-default .callout-title,
+div.callout-note.callout-style-simple .callout-title {
+  background-color: oklch(from #4582ec calc(l * 1.15) c h/0.1);
+  color: #4582ec
+}
+
+div.callout-info.callout-style-simple .callout-title,
+div.callout-info.callout-style-default .callout-title {
+  background-color: oklch(from #B695FF calc(l * 1.15) c h/0.1);
+  color: #b695ff
+}
+
+div.callout-caution.callout-style-simple .callout-title,
+div.callout-caution.callout-style-default .callout-title {
+  background-color: oklch(from #FF3BD3 calc(l * 1.15) c h/0.1);
+  color: #ff3bd3
+}
+
+div.callout-warning.callout-style-simple .callout-title,
+div.callout-warning.callout-style-default .callout-title {
+  background-color: oklch(from #fd971f calc(l * 1.15) c h/0.1);
+  color: #fd971f
+}
+
+div.callout-warning .callout.callout-style-simple>div.callout-header {
+  color: #fd971f
+}
+
+div.callout-warning.callout-style-simple>div.callout-header {
+  color: #fd971f
+}
+
+div.callout-note.callout-style-simple>div.callout-header {
+  color: #4582ec
+}
+
+div.callout-tip.callout-style-simple>div.callout-header {
+  color: #02b875
+}
+
+div.callout-caution.callout-style-simple>div.callout-header {
+  color: #ff3bd3
+}
+
+div.callout-important.callout-style-simple>div.callout-header {
+  color: #ff5252
+}
+
+div.callout-important.callout-style-simple .callout-title,
+div.callout-important.callout-style-default .callout-title {
+  background-color: oklch(from #ff5252 calc(l * 1.15) c h/0.1);
+  color: #ff5252
+}
+
+.callout.callout-style-default div.callout-title {
+  border-bottom: none;
+  font-weight: 600;
+  opacity: 100%;
+  font-size: inherit;
+}
+
+.reveal .slides section .callout {
+  font-size: 1rem;
+}
+
+.reveal .callout.callout-style-simple div.callout-title,
+.reveal .callout.callout-style-default div.callout-title {
+  padding-top: unset;
+  font-size: 1rem;
+}
+
+.reveal .callout.callout-style-simple .callout-body,
+.reveal .callout.callout-style-default .callout-body {
+  font-size: 1rem;
+}
+
+.callout.callout-style-simple {
+  opacity: 100% !important;
+  display: -webkit-inline-box;
+  box-shadow: RGBA(0, 0, 0, 0.1) 0px 2px 2px;
+  border-radius: 0rem !important
+}
+
+.reveal .callout.callout-style-default:hover,
+.callout.callout-style-default:hover,
+.reveal .callout.callout-style-simple:hover,
+.callout.callout-style-simple:hover {
+  box-shadow: RGBA(0, 0, 0, 0.25) 0px 2px 7px !important
+}
+
+.callout.callout-style-simple>div.callout-header {
+  font-size: 1rem;
+}
+
+.callout-toggle {
+  opacity: 33%
+}

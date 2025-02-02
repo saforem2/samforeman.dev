@@ -13,7 +13,7 @@ citation:
    author: Sam Foreman
    type: article-journal
    title: "🍋 ezpz at ALCF"
-   url: https://samforeman.me/posts/ezpz-at-alcf
+   url: https://samforeman.dev/posts/ezpz-at-alcf
 open-graph:
   title: "🍋 ezpz @ ALCF"
   description: "🍋 `ezpz` at ALCF"
@@ -39,7 +39,7 @@ format:
 #   #   output_file: "ezpz-at-alcf.md"
 #   html: default
 #   # revealjs:
-#   #   slide-url: https://samforeman.me/posts/ezpz-at-alcf/slides.html
+#   #   slide-url: https://samforeman.dev/posts/ezpz-at-alcf/slides.html
 
   # revealjs:
   #   width: 1024
@@ -49,8 +49,8 @@ format:
   #   # title: "AuroraGPT"
   #   pdf-separate-fragments: true
   #   center: false
-  #   footer: "[samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides](https://samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides)"
-  #   slide-url: https://samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides.html
+  #   footer: "[samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides](https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides)"
+  #   slide-url: https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides.html
   #   template-partials:
   #     - title-slide.html
   #   title-slide-attributes:

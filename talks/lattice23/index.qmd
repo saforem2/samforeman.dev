@@ -41,7 +41,7 @@ format:
     # grid:
     #   body-width: 800px
   revealjs:
-    slides-url: https://samforeman.me/talks/lattice23/slides.html
+    slides-url: https://samforeman.dev/talks/lattice23/slides.html
     # template-partials:
     #   - ./title-slide.html
       # - ./title-fancy/title-slide.html
@@ -96,7 +96,7 @@ format:
 <span style="color:#939393; font-size:1.5em; font-weight: bold;">MLMC: Machine Learning Monte Carlo</span>  
 <span style="color:#777777; font-size:1.2em; font-weight: bold;">for Lattice Gauge Theory</span>  
 [<br>&nbsp;]{style="padding-bottom: 0.5rem;"}  
-[{{< fa solid home >}}](https://samforeman.me) Sam Foreman  
+[{{< fa solid home >}}](https://samforeman.dev) Sam Foreman  
 [Xiao-Yong Jin, James C. Osborn]{.dim-text style="font-size:0.8em;"}  
 [[[{{< fa brands github >}} `saforem2/`](https://github.com/saforem2/)]{style="border-bottom: 0.5px solid #00ccff;"}`{`[[`lattice23`](https://github.com/saforem2/lattice23)]{style="border-bottom: 0.5px solid #00ccff;"}, [[`l2hmc-qcd`](https://github.com/saforem2/l2hmc-qcd)]{style="border-bottom: 0.5px solid #00ccff;"}`}`]{style="font-size:0.8em;"}
 :::
@@ -927,7 +927,7 @@ between the trained model and HMC
 
 ::: {layout-ncol=4 style="text-align:left; font-size:0.8em;"}
 
-[[{{< fa solid home >}} `samforeman.me`](https://samforeman.me)]{style="font-size:0.8em;"}
+[[{{< fa solid home >}} `samforeman.dev`](https://samforeman.dev)]{style="font-size:0.8em;"}
 
 [[{{< fa brands github >}} `saforem2`](https://github.com/saforem2)]{style="font-size:0.8em;"}
 

@@ -13,7 +13,7 @@ citation:
    author: Sam Foreman
    type: article-journal
    title: "🍋 <code>ezpz</code> v1"
-   url: https://samforeman.me/posts/ezpz-at-alcf
+   url: https://samforeman.dev/posts/ezpz-at-alcf
 open-graph:
    title: "🍋 <code>ezpz</code> v1"
    description: "🍋 `ezpz` at ALCF"
@@ -43,7 +43,7 @@ format:
 
 ## 🍋 `ezpz` v1
 
-[Sam Foreman](https://samforeman.me)  
+[Sam Foreman](https://samforeman.dev)  
 _2024-05-14_
 
 ### 👀 Overview

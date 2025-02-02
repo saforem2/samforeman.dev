@@ -29,13 +29,13 @@ As a member of the [AI / ML Group](https://www.alcf.anl.gov/about/people/group/5
 
 <!-- ::: footer -->
 <!---->
-<!-- [[🏡](https://samforeman.me) Sam Foreman]{style="color:#555555"}   -->
+<!-- [[🏡](https://samforeman.dev) Sam Foreman]{style="color:#555555"}   -->
 <!-- [@ [ATPESC 2024](https://extremecomputingtraining.anl.gov/agenda-2024/)]{.dim-text style="font-size: 0.75em"}   -->
 <!-- [🗓️ 2024-08-09]{.dim-text style="font-size: 0.66em;"} -->
 <!---->
 <!-- ::: {style="display: flex; flex-direction: row; align-items: center; text-align: center!important; justify-content: center;"} -->
 <!---->
-<!-- [[{{< iconify ph house-line-duotone >}}](https://samforeman.me)]{.icon style="font-size:1.5rem; padding-right: 0pt;"} -->
+<!-- [[{{< iconify ph house-line-duotone >}}](https://samforeman.dev)]{.icon style="font-size:1.5rem; padding-right: 0pt;"} -->
 <!-- [[{{< iconify ph github-logo-duotone >}}](https://github.com/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"} -->
 <!-- [[{{< iconify ph twitter-logo-duotone >}}](https://www.twitter.com/saforem2)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"} -->
 <!-- [[{{< iconify ph envelope-open-duotone >}}](mailto:///foremans@anl.gov)]{.icon style="font-size:1.5rem; padding-left: 0pt; padding-right: 0pt"} -->
@@ -48,7 +48,7 @@ As a member of the [AI / ML Group](https://www.alcf.anl.gov/about/people/group/5
 <!---->
 <!-- ::: {style="text-align: center!important;"} -->
 <!---->
-<!-- [[[samforeman.me/talks/llms-at-scale]{style="color:#137af5!important; background:oklch(from #137af5 calc(l * 1.15) c h / 0.085); border:0px solid #137af5!important; border-radius: 0.25rem; text-shadow: 1px 1px rgba(0, 0, 0, 0.25);"}](https://samforeman.me/talks/llms-at-scale)]{style="text-align:center;"}   -->
+<!-- [[[samforeman.dev/talks/llms-at-scale]{style="color:#137af5!important; background:oklch(from #137af5 calc(l * 1.15) c h / 0.085); border:0px solid #137af5!important; border-radius: 0.25rem; text-shadow: 1px 1px rgba(0, 0, 0, 0.25);"}](https://samforeman.dev/talks/llms-at-scale)]{style="text-align:center;"}   -->
 <!---->
 <!-- ::: -->
 <!---->

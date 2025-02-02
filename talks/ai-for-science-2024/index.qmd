@@ -26,7 +26,7 @@ open-graph:
 citation:
    author: Sam Foreman
    type: speech
-   url: https://samforeman.me/talks/ai-for-science-2024/slides
+   url: https://samforeman.dev/talks/ai-for-science-2024/slides
 # toc-expand: true
 format:
   html:
@@ -84,8 +84,8 @@ format:
       #     white
       # pdf-separate-fragments: true
       # center: true
-      footer: "[samforeman.me/talks/ai-for-science-2024/slides](https://samforeman.me/talks/ai-for-science-2024/slides)"
-      slide-url: https://samforeman.me/talks/ai-for-science-2024/slides.html
+      footer: "[samforeman.dev/talks/ai-for-science-2024/slides](https://samforeman.dev/talks/ai-for-science-2024/slides)"
+      slide-url: https://samforeman.dev/talks/ai-for-science-2024/slides.html
       template-partials:
         - ./title-slide.html
       title-slide-attributes:
@@ -134,8 +134,8 @@ format:
 
 # 👀 Overview {background-color="white"}
 
-- 📊 Slides @ [samforeman.me/talks/ai-for-science-2024/slides](https://samforeman.me/talks/ai-for-science-2024/slides)
-  - 📄 HTML version: [samforeman.me/talks/ai-for-science-2024](https://samforeman.me/talks/ai-for-science-2024)
+- 📊 Slides @ [samforeman.dev/talks/ai-for-science-2024/slides](https://samforeman.dev/talks/ai-for-science-2024/slides)
+  - 📄 HTML version: [samforeman.dev/talks/ai-for-science-2024](https://samforeman.dev/talks/ai-for-science-2024)
 
 - {{< fa brands github >}} [argonne-lcf/`ai-science-training-series`](https://github.com/argonne-lcf/ai-science-training-series)
     - [Series Page](https://www.alcf.anl.gov/alcf-ai-science-training-series)
@@ -1902,7 +1902,7 @@ Training a LLM to talk like Shakespeare using [saforem2/`wordplay` 🎮💬](htt
 
     <split even>
 
-    [<i class="fas fa-home"></i>](https://samforeman.me)
+    [<i class="fas fa-home"></i>](https://samforeman.dev)
     [<i class="far fa-paper-plane"></i>](mailto:foremans@anl.gov)
     [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 

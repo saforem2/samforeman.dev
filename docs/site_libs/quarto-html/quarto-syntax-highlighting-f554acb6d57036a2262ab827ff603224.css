@@ -1,0 +1,213 @@
+/* quarto syntax highlight colors */
+:root {
+  --quarto-hl-ot-color: #494957;
+  --quarto-hl-at-color: #CA2AA3;
+  --quarto-hl-ss-color: #00A553;
+  --quarto-hl-an-color: #494957;
+  --quarto-hl-fu-color: #009BCB;
+  --quarto-hl-st-color: #00A553;
+  --quarto-hl-cf-color: #B55A00;
+  --quarto-hl-op-color: #494957;
+  --quarto-hl-er-color: #DE2118;
+  --quarto-hl-bn-color: #DE2118;
+  --quarto-hl-al-color: #DE2118;
+  --quarto-hl-va-color: #212129;
+  --quarto-hl-bu-color: inherit;
+  --quarto-hl-ex-color: inherit;
+  --quarto-hl-pp-color: #DE2118;
+  --quarto-hl-in-color: #494957;
+  --quarto-hl-vs-color: #00A553;
+  --quarto-hl-wa-color: #494957;
+  --quarto-hl-do-color: #494957;
+  --quarto-hl-im-color: #CA2AA3;
+  --quarto-hl-ch-color: #00A553;
+  --quarto-hl-dt-color: #DE2118;
+  --quarto-hl-fl-color: #DE2118;
+  --quarto-hl-co-color: #494957;
+  --quarto-hl-cv-color: #494957;
+  --quarto-hl-cn-color: #F46000;
+  --quarto-hl-sc-color: #494957;
+  --quarto-hl-dv-color: #DE2118;
+  --quarto-hl-re-color: #009BCB;
+  --quarto-hl-kw-color: #212129;
+}
+
+/* other quarto variables */
+:root {
+  --quarto-font-monospace: "IosevkaTerm Web";
+}
+
+:root {
+  --quarto-font-monospace: ("IBM Plex Mono",);
+}
+
+pre > code.sourceCode > span {
+  color: #212129;
+}
+
+code span {
+  color: #212129;
+}
+
+code.sourceCode > span {
+  color: #212129;
+}
+
+div.sourceCode,
+div.sourceCode pre.sourceCode {
+  color: #212129;
+}
+
+code span.ot {
+  color: #494957;
+  font-style: inherit;
+}
+
+code span.at {
+  color: #CA2AA3;
+  font-style: inherit;
+}
+
+code span.ss {
+  color: #00A553;
+  font-style: inherit;
+}
+
+code span.an {
+  color: #494957;
+  font-style: inherit;
+}
+
+code span.fu {
+  color: #009BCB;
+  font-style: inherit;
+}
+
+code span.st {
+  color: #00A553;
+  font-style: inherit;
+}
+
+code span.cf {
+  color: #B55A00;
+  font-style: inherit;
+}
+
+code span.op {
+  color: #494957;
+  font-style: inherit;
+}
+
+code span.er {
+  color: #DE2118;
+  font-style: inherit;
+}
+
+code span.bn {
+  color: #DE2118;
+  font-style: inherit;
+}
+
+code span.al {
+  color: #DE2118;
+  font-style: inherit;
+}
+
+code span.va {
+  color: #212129;
+  font-style: inherit;
+}
+
+code span.bu {
+  font-style: inherit;
+}
+
+code span.ex {
+  font-style: inherit;
+}
+
+code span.pp {
+  color: #DE2118;
+  font-style: inherit;
+}
+
+code span.in {
+  color: #494957;
+  font-style: inherit;
+}
+
+code span.vs {
+  color: #00A553;
+  font-style: inherit;
+}
+
+code span.wa {
+  color: #494957;
+  font-style: italic;
+}
+
+code span.do {
+  color: #494957;
+  font-style: italic;
+}
+
+code span.im {
+  color: #CA2AA3;
+  font-style: inherit;
+}
+
+code span.ch {
+  color: #00A553;
+  font-style: inherit;
+}
+
+code span.dt {
+  color: #DE2118;
+  font-style: inherit;
+}
+
+code span.fl {
+  color: #DE2118;
+  font-style: inherit;
+}
+
+code span.co {
+  color: #494957;
+  font-style: inherit;
+}
+
+code span.cv {
+  color: #494957;
+  font-style: italic;
+}
+
+code span.cn {
+  color: #F46000;
+  font-style: inherit;
+}
+
+code span.sc {
+  color: #494957;
+  font-style: inherit;
+}
+
+code span.dv {
+  color: #DE2118;
+  font-style: inherit;
+}
+
+code span.re {
+  color: #009BCB;
+  font-style: inherit;
+}
+
+code span.kw {
+  color: #212129;
+  font-style: inherit;
+}
+
+.prevent-inlining {
+  content: "</";
+}
+
+/*# sourceMappingURL=8aa1c6d54601819477737fda306dea11.css.map */

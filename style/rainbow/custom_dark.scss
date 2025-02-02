@@ -1,0 +1,195 @@
+/*-- scss:defaults --*/
+
+// fonts
+// @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+//
+// @font-face {
+//   font-family: 'Gilbert';
+//   src: local('GilbertBoldPreview5'), url('fonts/GilbertBoldPreview5.woff') format('woff');
+// }
+//
+$body-bg: #1c1c1c;
+
+$right-arrow: "\2192";
+$font-family-monospace: "IosevkaTerm Web" !default;
+$font-family-sans-serif: "IosevkaQP Web" !default;
+$heading-font: "IosevkaQP Web" !default;
+$monofont: $font-family-monospace !default;
+$presentation-heading-font: "IBM Plex Sans Condensed" !default;
+$presentation-main-font: "IBM Plex Sans" !default;
+$font-family-headings: "IosevkaQP Web" !default;
+$headings-font-family: $font-family-sans-serif !default;
+$mermaid-font-family: "IosevkaTerm Web", monospace, !default;
+$myred: #FF5252;
+$myorange: #FD971F;
+$myyellow: #FFCA27;
+$mygreen: #63FF5b;
+$myblue: #29b6f6;
+$mypurple: #AE81FF;
+$mypink: #FF67FF;
+$base-font-size: 16px !default;
+$code-block-font-size: 16px !default;
+$font-size-root: 1rem;
+$font-size-base: 16px;
+$font-size-sm: $font-size-base*.875;
+$font-size-lg: $font-size-base*1.25;
+$quarto-border-width: 1px !default;
+$output: "asis";
+$table-striped: true;
+$table-hover: true;
+$deepspeed-color: #ffa500;
+// $callout-simple-color: #2a2a2a;
+// $callout-title-color: #bdbdbd;
+// $callout-border-hover: #838383;
+$bs-table-border-color: rgba(0, 0, 0, 0.0) !default;
+$grey-ambivalent: #838383;
+$callout-important-color: #ff5252;
+$callout-color-important: #ff5252;
+$callout-warning-color: #fd971f;
+$callout-color-warning: #fd971f;
+$callout-tip-color: #02b875;
+$callout-color-tip: #02b875;
+$callout-note-color: #4582ec;
+$callout-color-note: #4582ec;
+$callout-color-info: #B695FF;
+$callout-color-info: #B695FF;
+$callout-caution-color: #FF3BD3;
+$callout-color-caution: #FF3BD3;
+$border-transparent-color: rgba(131, 131, 131, 0.7);
+$quarto-border-color: $border-transparent-color !default;
+$light-bg-link-color: $callout-note-color !default;
+$dark-bg-link-color: $callout-note-color !default;
+$link-color: rgba(19, 122, 245, 1.0) !default;
+$link-bg-color: rgba(19, 122, 245, .062745098);
+$light-bg-link-color: #1A8FFF !default;
+$dark-bg-link-color: #137af5 !default;
+$link-border-radius: 0.05rem;
+$nav-link-padding-x: 5px;
+$nav-link-padding-y: 2px;
+$dropdown-item-padding-y: 0.25rem;
+$bs-nav-tabs-link-active-border-color: $border-transparent-color !default;
+$bs-nav-tabs-border-color: rgba(0, 0, 0, 0.2) !default;
+$presentation-font-size-root: 20px !default;
+$code-block-font-size: (
+  $code-font-size*0.55) !default;
+$code-block-height: calc(0.80*100vh) !default;
+$code-block-height-reveal: calc(0.33*100vh) !default;
+$presentation-font-family-line-height: 1em !default;
+$presentation-line-height: 1em !default;
+$line-height-sm: 1.0 !default;
+$font-family-code: $font-family-monospace !default;
+$kbd-padding-y: 0rem !default;
+$mermaid-bg-color: $body-bg !default;
+$mermaid-edge-color: #838383 !default;
+$mermaid-fg-color--lighter: rgba(100, 100, 100, 0.5) !default;
+$mermaid-fg-color--lightest: rgba(100, 100, 100, 0.05) !default;
+$dim-text: #777777!default;
+$mermaid-accent: #888888 !default;
+$mermaid-node-bg-color: oklch(from $mermaid-accent calc(l*1.15)c h/0.1) !default;
+$mermaid-node-fg-color: $mermaid-accent !default;
+$mermaid-label-bg-color: RGBA(100, 100, 100, 0.1) !default;
+$mermaid-label-fg-color: $mermaid-accent;
+$h1-font-size: 1.66rem !default;
+$h2-font-size: 1.5rem !default;
+$h3-font-size: 1.33rem !default;
+$h4-font-size: 1.25rem !default;
+$h5-font-size: 1.125rem !default;
+$h6-font-size: 1.05rem !default;
+$btn-code-copy-color: #838383 !default;
+$btn-code-copy-color-active: $link-color;
+$toc-font-size: 0.9em !default;
+$bs-table-striped-color: $dim-text;
+$bs-body-line-height: 1.1 !default;
+$light-bg-text-color: #222222 !default;
+$light-bg-link-color: #1A8FFF !default;
+$dark-bg-text-color: #A9a9b3 !default;
+$dark-bg-link-color: #137af5 !default;
+$code-fg-dark-bg: #E599F7;
+$code-block-bg-dark-bg: #222222;
+$code-block-bg: #222222;
+$code-fg-light-bg: #FF1A8F;
+$cardbg: rgba(131, 131, 131, 0.05) !default;
+$highlight-bg-light: #FFCA27 !default;
+$highlight-text-color: $highlight-bg-light !default;
+
+$light: #cccccc;
+$body-fg: #cccccc;
+$bs-nav-link-color:#cccccc;
+$navbar-bg: rgba(34, 34, 34, 0.95);
+$navbar-fg: #838383;
+$cardbg:$cardbg;
+$text:#a9a9b3;
+$dim-text:#777777;
+$strong-fg:#D0BFFF;
+$italic-fg:#89DDFF;
+$code-fg:$code-fg-dark-bg;
+$code-block-bg-dark-bg:$code-block-bg-dark-bg;
+$code-block-color:$code-fg-dark-bg;
+$code-bg: oklch(from($code-fg-dark-bg)calc(l*1.15)c h/0.1);
+$code-border:#222222;
+$bs-code-color:$code-fg-dark-bg;
+$code-block-shadow:rgba(0, 0, 0, 0.15)0px 2px 5px;
+$code-block-box-shadow-hover:rgba(0, 0, 0, 0.75)0px 2px 5px;
+$codeline-number-fg:#333333;
+$link-fg:#32affa;
+$link-fg-hover:#FF67FF;
+$callout-note-color:#4582ec;
+$callout-tip-color:#02b875;
+$callout-warning-color:#FD971F;
+$callout-caution-color:#E599F7;
+$callout-important-color:#FF5252;
+
+
+// $font-family-sans-serif: Figtree, Helvetica, sans-serif;
+// $headings-font-family: Figtree, Helvetica, sans-serif;
+
+// colors
+$red: #FF4239;
+$orange: #FF6B00;
+$yellow: #FFC843;
+$green: #09CE7C;
+$blue: #02B3E3;
+$pink: #DA3AB3;
+$purple: #DA3AB3;
+$royal-blue: #01299F;
+//$dark-blue: #001552;
+$dark-blue: #001247;
+//$very-dark-blue: #000B29;
+$very-dark-blue: #000D33;
+//$very-dark-blue: #000F3D;
+//$light: #F2F5FF;
+$light: #FAFBFF;
+$dark-bg: #1c1c1c;
+// $navbar-bg: $navbar-bg;
+
+$primary: $blue;
+$body-bg: $dark-bg;
+$navbar-bg: $navbar-bg;
+$navbar-fg: $body-fg;
+$body-color: $body-fg;
+$code-block-bg: $dark-blue;
+$code-bg: oklch(from($code-fg-dark-bg)calc(l*1.15)c h/0.1);
+$code-color: $green;
+
+$primary: $yellow;
+
+$grey-ambivalent: #838383;
+$callout-important-color: #ff5252;
+$callout-color-important: #ff5252;
+$callout-warning-color: #fd971f;
+$callout-color-warning: #fd971f;
+$callout-tip-color: #02b875;
+$callout-color-tip: #02b875;
+$callout-note-color: #4582ec;
+$callout-color-note: #4582ec;
+$callout-color-info: #B695FF;
+$callout-color-info: #B695FF;
+$callout-caution-color: #FF3BD3;
+$callout-color-caution: #FF3BD3;
+
+// callouts
+// $callout-color-note: $callout-color-note;
+// $callout-color-tip: $green;
+// $callout-color-caution: $purple;
+// $callout-color-warning: $orange;
+// $callout-color-important: $red;

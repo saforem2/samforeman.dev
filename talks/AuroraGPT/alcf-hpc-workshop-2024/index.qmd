@@ -1,7 +1,5 @@
 ---
 title: "AuroraGPT"
-# institute: "Argonne Leadership Computing Facility"
-# institute: "[ALCF](https://www.alcf.anl.gov/)"
 date: 2024-10-30
 cookie-consent: true
 location: ALCF Hands-on HPC Workshop
@@ -28,7 +26,7 @@ open-graph:
 citation:
    author: Sam Foreman
    type: speech
-   url: https://samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides
+   url: https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides
 # toc-expand: true
 format:
   # html:
@@ -43,8 +41,8 @@ format:
     pdf-separate-fragments: true
     shift-heading-level-by: -1
     center: false
-    footer: "[samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides](https://samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides)"
-    slide-url: https://samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides.html
+    footer: "[samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides](https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides)"
+    slide-url: https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides.html
     template-partials:
       - title-slide.html
     title-slide-attributes:
@@ -498,12 +496,12 @@ _significantly_ improves performance (~~60 min~~ $\rightarrow$ 4 min)
 ::: {.flex-container style="gap: 2pt;"}
 
 ::: {.column}
-- See my other slides at [samforeman.me/talks](https://samforeman.me/talks)
+- See my other slides at [samforeman.dev/talks](https://samforeman.dev/talks)
     - [LLMs from Scratch](https://saforem2.github.io/llm-workshop-talk)
     - [Creating Small(\~ish) LLMs](https://saforem2.github.io/LLM-tutorial)
     - [Parallel Training Techniques](https://saforem2.github.io/parallel-training-slides)
-    - [LLMs on Polaris](https://samforeman.me/talks/llms-on-polaris/#/title-slide)
-    - [Training LLMs at Scale](https://samforeman.me/talks/llms-at-scale/)
+    - [LLMs on Polaris](https://samforeman.dev/talks/llms-on-polaris/#/title-slide)
+    - [Training LLMs at Scale](https://samforeman.dev/talks/llms-at-scale/)
 - {{< fa brands github >}} [argonne-lcf / `Megatron-DeepSpeed`](https://github.com/argonne-lcf/Megatron-DeepSpeed)  
     [For the largest of large language models.]{.dim-text}
 - {{< fa brands github >}} [saforem2 / `ezpz`](https://github.com/saforem2/ezpz)  
@@ -528,7 +526,7 @@ _significantly_ improves performance (~~60 min~~ $\rightarrow$ 4 min)
 
     <split even>
 
-    [<i class="fas fa-home"></i>](https://samforeman.me)
+    [<i class="fas fa-home"></i>](https://samforeman.dev)
     [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
     [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 
@@ -578,7 +576,7 @@ DE-AC02-06CH11357.
 - Working with
   [{{< fa brands microsoft >}} Microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed)
   team to enable longer sequence lengths (context windows) for LLMs
-    - See my [blog post](https://samforeman.me/posts/auroragpt/long-sequences/) for additional details
+    - See my [blog post](https://samforeman.dev/posts/auroragpt/long-sequences/) for additional details
 
 ::: {#fig-long-seq}
 
@@ -868,3 +866,5 @@ The fifth thing you notice is the temperature. It’s hot.
     Collaborations with Barcelona Supercomputing Center
 
 -->
+
+

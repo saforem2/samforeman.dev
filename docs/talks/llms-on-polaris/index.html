@@ -93,10 +93,12 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d79fd6b452afc0040f5f6797f0b4a489.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e1c27e27639cc505bf0ce20e4d8f4b53.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-3cfee5fa3ba245ddee763bf7f62f0895.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-e43a36f4fe9ff3e17ab0442c2e8372a1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-badaf3df76a119941e88b8c49d560da1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-081c4e35f258ab5ae5b9184f9e1a1b69.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
@@ -128,18 +130,15 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XVM2Y822Y1"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=GTM-TL25HPPF"></script>
 
 <script type="text/javascript">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-XVM2Y822Y1', { 'anonymize_ip': true});
+gtag('config', 'GTM-TL25HPPF', { 'anonymize_ip': true});
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-<!-- End Google Tag Manager -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
@@ -196,14 +195,12 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../css/mermaid.css">
-<link rel="stylesheet" href="../../css/custom.css">
-<link rel="stylesheet" href="../../css/svgbob.css">
+<link rel="stylesheet" href="../../style/lastfm.css">
+<link rel="stylesheet" href="../../style/colors-oklch.min.css">
+<link rel="stylesheet" href="../../style/custom.css">
+<link rel="stylesheet" href="../../style/svgbob.css">
 <link rel="stylesheet" href="../../static/fonts/IosevkaTerm/IosevkaTerm.css">
 <link rel="stylesheet" href="../../static/fonts/IosevkaQP/IosevkaQP.css">
-<link rel="stylesheet" href="../../css/colors-oklch.min.css">
-<link rel="stylesheet" href="../../static/fonts/IosevkaQP/IosevkaQP.css">
-<link rel="stylesheet" href="../../static/fonts/IosevkaTerm/IosevkaTerm.css">
 <meta property="og:title" content="LLMs On Polaris">
 <meta property="og:description" content="Training LLMs at Scale on Polaris at ALCF">
 <meta property="og:image" content="https://raw.githubusercontent.com/saforem2/personal_site/main/talks/llms-on-polaris/assets/thumbnail.png">
@@ -386,9 +383,6 @@ window.Quarto = {
     <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -401,7 +395,7 @@ window.Quarto = {
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://samforeman.me">Sam Foreman</a> <a href="mailto:foremans@anl.gov" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    <p class="author"><a href="https://samforeman.dev">Sam Foreman</a> <a href="mailto:foremans@anl.gov" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -425,7 +419,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 29, 2025</p>
+      <p class="date-modified">February 1, 2025</p>
     </div>
   </div>
     
@@ -440,7 +434,7 @@ window.Quarto = {
 <h1 class="centeredslide" data-background-color="white" data-background-iframe="https://emilhvitfeldt.github.io/quarto-iframe-examples/colored-particles/index.html" loading="lazy"></h1>
 <div style="background-color: #f5f5f5; opacity:0.97; border-radius: 10px; text-align:center; padding: 0px; padding-left: 1.5em; padding-right: 1.5em; max-width: min-content; min-width: max-content; margin-left: auto; margin-right: auto; padding-top: 0.2em; padding-bottom: 0.2em; line-height: 1.5em!important;">
 <p><span style="color:#333333; font-size:1.5em; font-weight: bold;">LLMs on Polaris</span> <span style="padding-bottom: 0.5rem;"><br>&nbsp;</span><br>
-<a href="https://samforeman.me">🏡 Sam Foreman</a><br>
+<a href="https://samforeman.dev">🏡 Sam Foreman</a><br>
 <span class="dim-text" style="font-size: 0.8em"><a href="https://indico.fnal.gov/event/57249/contributions/271305/">SciFM Summer School 24</a></span></p>
 </div>
 <div class="footer">
@@ -448,11 +442,11 @@ window.Quarto = {
 </div>
 </section>
 <section id="sam-foreman" class="level1" style="font-size: 0.9em;" data-background-color="white">
-<h1 style="font-size: 0.9em;" data-background-color="white">👤 <a href="https://samforeman.me">Sam Foreman</a></h1>
+<h1 style="font-size: 0.9em;" data-background-color="white">👤 <a href="https://samforeman.dev">Sam Foreman</a></h1>
 <ul>
 <li>I’m a Computational Scientist in the <a href="https://www.alcf.anl.gov/about/people/group/506">Data Science Group</a> at <a href="https://alcf.anl.gov">ALCF</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.
 <ul>
-<li>Personal Website: <a href="https://samforeman.me">samforeman.me</a></li>
+<li>Personal Website: <a href="https://samforeman.dev">samforeman.dev</a></li>
 <li>Background: <span><code>{ML, LLMs, AI4Science, HEP, Lattice QCD, MCMC, Generative Modeling, ...}</code></span></li>
 </ul></li>
 </ul>
@@ -2247,7 +2241,7 @@ Figure&nbsp;10: Example: using <a href="https://github.com/saforem2/ezpz/blob/ma
 <li><p>Organizers</p></li>
 <li><p>Feel free to reach out!</p>
 <p><split even=""></split></p>
-<p><a href="https://samforeman.me"><i class="fas fa-home"></i></a> <a href="mailto:///foremans@anl.gov"><i class="far fa-paper-plane"></i></a> <a href="https://www.twitter.com/saforem2"><i class="fab fa-twitter"></i></a></p>
+<p><a href="https://samforeman.dev"><i class="fas fa-home"></i></a> <a href="mailto:///foremans@anl.gov"><i class="far fa-paper-plane"></i></a> <a href="https://www.twitter.com/saforem2"><i class="fab fa-twitter"></i></a></p>
 <p></p></li>
 </ul>
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="🙏 Acknowledgements">
@@ -3015,7 +3009,7 @@ loadGiscusWhenReady();
 <span id="cb16-30"><a href="#cb16-30"></a><span class="co">  image: "https://raw.githubusercontent.com/saforem2/personal_site/main/talks/llms-on-polaris/assets/thumbnail.png"</span></span>
 <span id="cb16-31"><a href="#cb16-31"></a><span class="co"># author:</span></span>
 <span id="cb16-32"><a href="#cb16-32"></a><span class="co">#   name: Sam Foreman</span></span>
-<span id="cb16-33"><a href="#cb16-33"></a><span class="co">#   url: https://samforeman.me</span></span>
+<span id="cb16-33"><a href="#cb16-33"></a><span class="co">#   url: https://samforeman.dev</span></span>
 <span id="cb16-34"><a href="#cb16-34"></a><span class="co">#   orcid: 0000-0002-9981-0876</span></span>
 <span id="cb16-35"><a href="#cb16-35"></a><span class="co">#   email: foremans@anl.gov</span></span>
 <span id="cb16-36"><a href="#cb16-36"></a><span class="co">#   affiliation: Argonne National Laboratory</span></span>
@@ -3041,8 +3035,8 @@ loadGiscusWhenReady();
 <span id="cb16-56"><a href="#cb16-56"></a><span class="co">    center: true</span></span>
 <span id="cb16-57"><a href="#cb16-57"></a><span class="co">    output-file: slides.html</span></span>
 <span id="cb16-58"><a href="#cb16-58"></a><span class="co">    # shift-heading-level-by: 1</span></span>
-<span id="cb16-59"><a href="#cb16-59"></a><span class="co">    # footer: "[samforeman.me/talks/hpc-user-forum/slides](https://samforeman.me/talks/hpc-user-forum/slides)"</span></span>
-<span id="cb16-60"><a href="#cb16-60"></a><span class="co">    # slide-url: https://samforeman.me/talks/llms-on-polaris/slides.html</span></span>
+<span id="cb16-59"><a href="#cb16-59"></a><span class="co">    # footer: "[samforeman.dev/talks/hpc-user-forum/slides](https://samforeman.dev/talks/hpc-user-forum/slides)"</span></span>
+<span id="cb16-60"><a href="#cb16-60"></a><span class="co">    # slide-url: https://samforeman.dev/talks/llms-on-polaris/slides.html</span></span>
 <span id="cb16-61"><a href="#cb16-61"></a><span class="co">    # template-partials:</span></span>
 <span id="cb16-62"><a href="#cb16-62"></a><span class="co">    #  - title-slide.html</span></span>
 <span id="cb16-63"><a href="#cb16-63"></a><span class="co">    # title-slide-attributes:</span></span>
@@ -3155,7 +3149,7 @@ loadGiscusWhenReady();
 <span id="cb16-170"><a href="#cb16-170"></a>::: {style="background-color: #f5f5f5; opacity:0.97; border-radius: 10px; text-align:center; padding: 0px; padding-left: 1.5em; padding-right: 1.5em; max-width: min-content; min-width: max-content; margin-left: auto; margin-right: auto; padding-top: 0.2em; padding-bottom: 0.2em; line-height: 1.5em!important;"}</span>
 <span id="cb16-171"><a href="#cb16-171"></a><span class="co">[</span><span class="ot">LLMs on Polaris</span><span class="co">]</span>{style="color:#333333; font-size:1.5em; font-weight: bold;"}</span>
 <span id="cb16-172"><a href="#cb16-172"></a><span class="co">[</span><span class="ot">&lt;br&gt;&amp;nbsp;</span><span class="co">]</span>{style="padding-bottom: 0.5rem;"}  </span>
-<span id="cb16-173"><a href="#cb16-173"></a><span class="co">[</span><span class="ot">🏡 Sam Foreman</span><span class="co">](https://samforeman.me)</span>  </span>
+<span id="cb16-173"><a href="#cb16-173"></a><span class="co">[</span><span class="ot">🏡 Sam Foreman</span><span class="co">](https://samforeman.dev)</span>  </span>
 <span id="cb16-174"><a href="#cb16-174"></a>[<span class="co">[</span><span class="ot">SciFM Summer School 24</span><span class="co">](https://indico.fnal.gov/event/57249/contributions/271305/)</span>]{.dim-text style="font-size: 0.8em"}  </span>
 <span id="cb16-175"><a href="#cb16-175"></a>:::</span>
 <span id="cb16-176"><a href="#cb16-176"></a></span>
@@ -3163,10 +3157,10 @@ loadGiscusWhenReady();
 <span id="cb16-178"><a href="#cb16-178"></a><span class="co">[</span><span class="ot">2024-07-17</span><span class="co">]</span>{.dim-text}</span>
 <span id="cb16-179"><a href="#cb16-179"></a>:::</span>
 <span id="cb16-180"><a href="#cb16-180"></a></span>
-<span id="cb16-181"><a href="#cb16-181"></a><span class="fu"># 👤 [Sam Foreman](https://samforeman.me) {style="font-size: 0.9em;" background-color="white"}</span></span>
+<span id="cb16-181"><a href="#cb16-181"></a><span class="fu"># 👤 [Sam Foreman](https://samforeman.dev) {style="font-size: 0.9em;" background-color="white"}</span></span>
 <span id="cb16-182"><a href="#cb16-182"></a></span>
 <span id="cb16-183"><a href="#cb16-183"></a><span class="ss">- </span>I'm a Computational Scientist in the <span class="co">[</span><span class="ot">Data Science Group</span><span class="co">](https://www.alcf.anl.gov/about/people/group/506)</span> at <span class="co">[</span><span class="ot">ALCF</span><span class="co">](https://alcf.anl.gov)</span><span class="ot">[^1]</span>.</span>
-<span id="cb16-184"><a href="#cb16-184"></a><span class="ss">  - </span>Personal Website: <span class="co">[</span><span class="ot">samforeman.me</span><span class="co">](https://samforeman.me)</span></span>
+<span id="cb16-184"><a href="#cb16-184"></a><span class="ss">  - </span>Personal Website: <span class="co">[</span><span class="ot">samforeman.dev</span><span class="co">](https://samforeman.dev)</span></span>
 <span id="cb16-185"><a href="#cb16-185"></a><span class="ss">  - </span>Background: <span class="co">[</span><span class="ot">`{ML, LLMs, AI4Science, HEP, Lattice QCD, MCMC, Generative Modeling, ...}`</span><span class="co">]</span>{}</span>
 <span id="cb16-186"><a href="#cb16-186"></a></span>
 <span id="cb16-187"><a href="#cb16-187"></a><span class="ot">[^1]: </span>Mostly getting supercomputers to stop yelling at each other {{&lt; fa solid network-wired &gt;}}</span>
@@ -4609,7 +4603,7 @@ loadGiscusWhenReady();
 <span id="cb16-1624"><a href="#cb16-1624"></a></span>
 <span id="cb16-1625"><a href="#cb16-1625"></a>    <span class="op">&lt;</span>split <span class="ex">even</span><span class="op">&gt;</span></span>
 <span id="cb16-1626"><a href="#cb16-1626"></a></span>
-<span id="cb16-1627"><a href="#cb16-1627"></a>    <span class="ex">[</span><span class="op">&lt;</span>i class=<span class="st">"fas fa-home"</span><span class="op">&gt;&lt;</span>/i<span class="op">&gt;</span>]<span class="er">(</span><span class="ex">https://samforeman.me</span><span class="kw">)</span></span>
+<span id="cb16-1627"><a href="#cb16-1627"></a>    <span class="ex">[</span><span class="op">&lt;</span>i class=<span class="st">"fas fa-home"</span><span class="op">&gt;&lt;</span>/i<span class="op">&gt;</span>]<span class="er">(</span><span class="ex">https://samforeman.dev</span><span class="kw">)</span></span>
 <span id="cb16-1628"><a href="#cb16-1628"></a>    <span class="ex">[</span><span class="op">&lt;</span>i class=<span class="st">"far fa-paper-plane"</span><span class="op">&gt;&lt;</span>/i<span class="op">&gt;</span>]<span class="er">(</span><span class="ex">mailto:///foremans@anl.gov</span><span class="kw">)</span></span>
 <span id="cb16-1629"><a href="#cb16-1629"></a>    <span class="ex">[</span><span class="op">&lt;</span>i class=<span class="st">"fab fa-twitter"</span><span class="op">&gt;&lt;</span>/i<span class="op">&gt;</span>]<span class="er">(</span><span class="ex">https://www.twitter.com/saforem2</span><span class="kw">)</span></span>
 <span id="cb16-1630"><a href="#cb16-1630"></a></span>

@@ -16,7 +16,7 @@ bibliography: references.bib
 # appendix-cite-as: display
 # favicon: "favicon.svg"
 # twitter-card: true
-site-url: "https://samforeman.me"
+site-url: "https://samforeman.dev"
 citeproc: true
 project:
   type: website
@@ -44,15 +44,15 @@ project:
     # - ./static/fonts/**/**/*.woff2
 # author:
 #   name: "[Sam Foreman]{.dim-text} [[{{< ai orcid >}}]{.orcid-green}](https://orcid.org/0000-0002-9981-0876)"
-#   url: https://samforeman.me
+#   url: https://samforeman.dev
 #   email: foremans@anl.gov
 #   # affiliation: \[ALCF\]
 #   # affiliation-url: https://alcf.anl.gov/about/people/sam-foreman
 affiliation: "[ALCF](https://alcf.anl.gov/about/people/sam-foreman)"
 author:
-  # name: "[Sam Foreman](https://samforeman.me) [[{{< ai orcid >}}]{.orcid-green}](https://orcid.org/0000-0002-9981-0876)"
+  # name: "[Sam Foreman](https://samforeman.dev) [[{{< ai orcid >}}]{.orcid-green}](https://orcid.org/0000-0002-9981-0876)"
   name: "Sam Foreman"
-  url: "https://samforeman.me"
+  url: "https://samforeman.dev"
   email: "foremans@anl.gov"
   affiliation: "[ALCF](https://alcf.anl.gov/about/people/sam-foreman)"
   affiliation-url: "https://alcf.anl.gov/about/people/sam-foreman"
@@ -61,7 +61,7 @@ citation: true
 # citation:
 #   author: Sam Foreman
 #   type: webpage
-#   url: https://samforeman.me
+#   url: https://samforeman.dev
 execute:
   # keep-ipynb: true
   # keep-md: true

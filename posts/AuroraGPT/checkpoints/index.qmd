@@ -9,7 +9,7 @@ citation:
    author: Sam Foreman
    type: webpage
    title: "Converting Checkpoints"
-   url: https://samforeman.me/posts/AuroraGPT/checkpoints
+   url: https://samforeman.dev/posts/AuroraGPT/checkpoints
 open-graph:
   title: "Converting Checkpoints"
   # description: "Details of how I create my slides, with Quarto + Reveal.js"

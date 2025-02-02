@@ -1,0 +1,64 @@
+/*-- scss:defaults --*/
+
+// // fonts
+// @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+//
+// @font-face {
+//   font-family: 'Gilbert';
+//   src: local('GilbertBoldPreview5'), url('fonts/GilbertBoldPreview5.woff') format('woff');
+// }
+//
+// $font-family-sans-serif: Figtree, Helvetica, sans-serif;
+// $headings-font-family: Figtree, Helvetica, sans-serif;
+
+$right-arrow: "\2192";
+$font-family-monospace: "IosevkaTerm Web" !default;
+$font-family-sans-serif: "IosevkaQP Web" !default;
+$heading-font: "IosevkaQP Web" !default;
+$headings-font-family: $font-family-sans-serif !default;
+$monofont: $font-family-monospace !default;
+$presentation-heading-font: "IBM Plex Sans Condensed" !default;
+$presentation-main-font: "IBM Plex Sans" !default;
+$font-family-headings: "IosevkaQP Web" !default;
+$mermaid-font-family: "IosevkaTerm Web", monospace, !default;
+$myred: #FF5252;
+$myorange: #FD971F;
+$myyellow: #FFCA27;
+$mygreen: #63FF5b;
+$myblue: #29b6f6;
+$mypurple: #AE81FF;
+$mypink: #FF67FF;
+
+// colors
+$red: #FF4239;
+$orange: #FF6B00;
+$yellow: #FFC843;
+$green: #09CE7C;
+$blue: #02B3E3;
+$pink: #DA3AB3;
+$purple: #DA3AB3;
+$royal-blue: #01299F;
+$dark-blue: #001552;
+//$very-dark-blue: #000B29;
+$very-dark-blue: #000D33;
+//$very-dark-blue: #000F3D;
+//$light: #F2F5FF;
+$light: #FFFFFF;
+$lightish: #F5F7FF;
+$primary: $orange;
+$body-bg: $light;
+$navbar-bg: $light;
+$navbar-fg: $very-dark-blue;
+$body-color: $very-dark-blue;
+$code-block-bg: $lightish;
+$code-bg: $light;
+$code-color: $royal-blue;
+
+$primary: $pink;
+
+// callouts
+$callout-color-note: $blue;
+$callout-color-tip: $green;
+$callout-color-caution: $purple;
+$callout-color-warning: $orange;
+$callout-color-important: $red;

@@ -5,7 +5,7 @@
 
     <split even>
 
-    [<i class="fas fa-home"></i>](https://samforeman.me)
+    [<i class="fas fa-home"></i>](https://samforeman.dev)
     [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
     [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 

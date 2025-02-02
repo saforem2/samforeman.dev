@@ -34,46 +34,62 @@ format:
     fig-align: center
     fig-responsive: true
     anchor-sections: true
-    highlight-style:
-      light: github
-      dark: github-dark
+    # highlight-style:
+    #   light: github
+    #   dark: github-dark
     code-overflow: scroll
     code-copy: hover
     code-summary: " "
     html-math-method: katex
-      # method: katex
-      # # url: /includes/katex/
     citations-hover: true
     footnotes-hover: true
     crossrefs-hover: true
-    css:
-      - css/mermaid.css
-      - css/custom.css
-      - css/svgbob.css
-      - static/fonts/IosevkaTerm/IosevkaTerm.css
-      - static/fonts/IosevkaQP/IosevkaQP.css
-      - css/colors-oklch.min.css
-      - static/fonts/IosevkaQP/IosevkaQP.css
-      - static/fonts/IosevkaTerm/IosevkaTerm.css
     section-divs: true
+    css:
+      - style/lastfm.css
+      - style/colors-oklch.min.css
+      - style/custom.css
+      - style/svgbob.css
+      # - style/mermaid.css
+      - static/fonts/IosevkaTerm/IosevkaTerm.css
+      - static/fonts/IosevkaQP/IosevkaQP.css
     theme:
       dark:
-        - css/theme.scss
-        - css/dark.scss
-        - css/syntax-dark.scss
-        - css/callout-cards.scss
-        - default
+        - style/sam/callouts.scss
+        - style/global.scss
+        - style/theme.scss
+        - style/rainbow/custom_dark.scss
+        - style/rainbow/common.scss
+        - style/dark.scss
+        - style/syntax-dark.scss
+        - style/callout-cards.scss
       light:
-        - css/theme.scss
-        - css/light.scss
-        - css/syntax-light.scss
-        - css/callout-cards.scss
-        - default
+        - style/sam/callouts.scss
+        - style/global.scss
+        - style/theme.scss
+        - style/rainbow/custom_light.scss
+        - style/theme.scss
+        - style/rainbow/common.scss
+        - style/light.scss
+        - style/syntax-light.scss
+        - style/callout-cards.scss
+    highlight-style:
+      dark: style/rainbow/rainbow-dark.theme
+      light: style/rainbow/rainbow-light.theme
+    # theme:
+    #   dark:
+    #     - css/theme.scss
+    #     - css/dark.scss
+    #     - css/syntax-dark.scss
+    #     - css/callout-cards.scss
+    #     - default
+    #   light:
+    #     - css/theme.scss
+    #     - css/light.scss
+    #     - css/syntax-light.scss
+    #     - css/callout-cards.scss
+    #     - default
     include-in-header:
-      - text: | # Google Tag Manager
-          <!-- Google Tag Manager -->
-          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-          <!-- End Google Tag Manager -->
       - text: | # Google Fonts
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,42 +102,20 @@ format:
           <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
           <meta name="apple-mobile-web-app-title" content="samforeman" />
           <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-    include-before-body:
-      - text: |
-          <!-- Google Tag Manager (noscript) -->
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-          <!-- End Google Tag Manager (noscript) -->
+    #   - text: | # Google Tag Manager
+    #       <!-- Google Tag Manager -->
+    #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
+    #       <!-- End Google Tag Manager -->
+    # include-in-body:
+    #   - text: | # Google Tag Manager
+    #         <!-- Google Tag Manager (noscript) -->
+    #         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL25HPPF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    #         <!-- End Google Tag Manager (noscript) -->
 
   gfm:
     toc: true
   revealjs:
     comments: false
-    # font-family-monospace: "IosevkaDisplaySFTerminalss15Custom"
-
-    # width: 1024
-    # height: 768
-    include-in-header:
-      - text: |
-          <!-- Google Tag Manager -->
-          <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-          <!-- End Google Tag Manager -->
-      - text: | # Google Fonts
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed+IBM+Plex+Mono&display=swap">
-          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap">
-          <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-          <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-          <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-          <meta name="apple-mobile-web-app-title" content="samforeman" />
-          <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-    include-before-body:
-      - text: |
-          <!-- Google Tag Manager (noscript) -->
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-          <!-- End Google Tag Manager (noscript) -->
     background-color: white
     output-file: "slides.html"
     navigation-mode: linear
@@ -141,27 +135,45 @@ format:
     code-line-numbers: true
     highlight-style: "atom-one"
     center: true
-    # default-image-extension: svg
     code-overflow: scroll
     html-math-method: katex
     css:
-      - css/mermaid.css
-      - css/custom.css
-      - css/svgbob.css
+      # - style/mermaid.css
+      - style/colors-oklch.min.css
+      - style/custom.css
+      - style/svgbob.css
       - static/fonts/IosevkaTerm/IosevkaTerm.css
       - static/fonts/IosevkaQP/IosevkaQP.css
-      - css/colors-oklch.min.css
-    # theme:
-    #   - css/title-slide-template.scss
-    #   - white
 
     theme:
-      - css/theme.scss
-      - css/title-slide-template.scss
-      - css/pdf.scss
-      - css/reveal.scss
-      - css/light.scss
-      - css/syntax-light.scss
-      - css/callout-cards.scss
-      - css/global.scss
+      - style/title-slide-template.scss
+      - style/pdf.scss
+      - style/reveal.scss
+      - style/light.scss
+      - style/callout-cards.scss
+      - style/global.scss
+      - style/syntax-light.scss
+      # - style/global.scss
       - white
+    include-in-header:
+      - text: | # Google Fonts
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed+IBM+Plex+Mono&display=swap">
+          <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap">
+          <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+          <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+          <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+          <meta name="apple-mobile-web-app-title" content="samforeman" />
+          <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    #   - text: | # Google Tag Manager
+    #       <!-- Google Tag Manager -->
+    #       <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
+    #       <!-- End Google Tag Manager -->
+    # include-in-body:
+    #   - text: | # Google Tag Manager
+    #         <!-- Google Tag Manager (noscript) -->
+    #         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL25HPPF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    #         <!-- End Google Tag Manager (noscript) -->

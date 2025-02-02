@@ -30,7 +30,7 @@ open-graph:
   image: "https://raw.githubusercontent.com/saforem2/personal_site/main/talks/llms-on-polaris/assets/thumbnail.png"
 # author:
 #   name: Sam Foreman
-#   url: https://samforeman.me
+#   url: https://samforeman.dev
 #   orcid: 0000-0002-9981-0876
 #   email: foremans@anl.gov
 #   affiliation: Argonne National Laboratory
@@ -56,8 +56,8 @@ format:
     center: true
     output-file: slides.html
     # shift-heading-level-by: 1
-    # footer: "[samforeman.me/talks/hpc-user-forum/slides](https://samforeman.me/talks/hpc-user-forum/slides)"
-    # slide-url: https://samforeman.me/talks/llms-on-polaris/slides.html
+    # footer: "[samforeman.dev/talks/hpc-user-forum/slides](https://samforeman.dev/talks/hpc-user-forum/slides)"
+    # slide-url: https://samforeman.dev/talks/llms-on-polaris/slides.html
     # template-partials:
     #  - title-slide.html
     # title-slide-attributes:
@@ -170,7 +170,7 @@ format:
 ::: {style="background-color: #f5f5f5; opacity:0.97; border-radius: 10px; text-align:center; padding: 0px; padding-left: 1.5em; padding-right: 1.5em; max-width: min-content; min-width: max-content; margin-left: auto; margin-right: auto; padding-top: 0.2em; padding-bottom: 0.2em; line-height: 1.5em!important;"}
 [LLMs on Polaris]{style="color:#333333; font-size:1.5em; font-weight: bold;"}
 [<br>&nbsp;]{style="padding-bottom: 0.5rem;"}  
-[🏡 Sam Foreman](https://samforeman.me)  
+[🏡 Sam Foreman](https://samforeman.dev)  
 [[SciFM Summer School 24](https://indico.fnal.gov/event/57249/contributions/271305/)]{.dim-text style="font-size: 0.8em"}  
 :::
 
@@ -178,10 +178,10 @@ format:
 [2024-07-17]{.dim-text}
 :::
 
-# 👤 [Sam Foreman](https://samforeman.me) {style="font-size: 0.9em;" background-color="white"}
+# 👤 [Sam Foreman](https://samforeman.dev) {style="font-size: 0.9em;" background-color="white"}
 
 - I'm a Computational Scientist in the [Data Science Group](https://www.alcf.anl.gov/about/people/group/506) at [ALCF](https://alcf.anl.gov)[^1].
-  - Personal Website: [samforeman.me](https://samforeman.me)
+  - Personal Website: [samforeman.dev](https://samforeman.dev)
   - Background: [`{ML, LLMs, AI4Science, HEP, Lattice QCD, MCMC, Generative Modeling, ...}`]{}
 
 [^1]: Mostly getting supercomputers to stop yelling at each other {{< fa solid network-wired >}}
@@ -1624,7 +1624,7 @@ Example: Training a LLM to talk like Shakespeare using [`saforem2/wordplay` 🎮
 
     <split even>
 
-    [<i class="fas fa-home"></i>](https://samforeman.me)
+    [<i class="fas fa-home"></i>](https://samforeman.dev)
     [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
     [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 

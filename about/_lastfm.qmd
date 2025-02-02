@@ -55,7 +55,7 @@ var getSetLastFM = function() {
         "Sam Foreman";
       $("a#trackartist")
         .html(artistFormatted)
-        .attr("href", "https://samforeman.me");
+        .attr("href", "https://samforeman.dev");
     }
   });
 };

@@ -73,10 +73,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d79fd6b452afc0040f5f6797f0b4a489.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e1c27e27639cc505bf0ce20e4d8f4b53.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-1900f0f643eef378bbf44fc719fdb0cc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-1d66b627b5a843a1582dd8dc8074e757.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-8c045672d426676404f8065bbbe1dc03.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-b7d98d1c30f3f1fe06b6d22f6f778d90.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
@@ -108,35 +110,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-XVM2Y822Y1"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=GTM-TL25HPPF"></script>
 
 <script type="text/javascript">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-XVM2Y822Y1', { 'anonymize_ip': true});
+gtag('config', 'GTM-TL25HPPF', { 'anonymize_ip': true});
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-<!-- End Google Tag Manager -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;family=IBM+Plex+Sans+Condensed+IBM+Plex+Mono&amp;display=swap">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;family=Playfair+Display:wght@700&amp;display=swap">
+<link rel="icon" type="image/png" href="../../assets/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon/favicon.svg">
+<link rel="shortcut icon" href="../../assets/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="samforeman">
+<link rel="manifest" href="../../assets/favicon/site.webmanifest">
 
 
-<link rel="stylesheet" href="../../css/custom.css">
-<link rel="stylesheet" href="../../css/svgbob.css">
+<link rel="stylesheet" href="../../style/lastfm.css">
+<link rel="stylesheet" href="../../style/colors-oklch.min.css">
+<link rel="stylesheet" href="../../style/custom.css">
+<link rel="stylesheet" href="../../style/svgbob.css">
 <link rel="stylesheet" href="../../static/fonts/IosevkaTerm/IosevkaTerm.css">
 <link rel="stylesheet" href="../../static/fonts/IosevkaQP/IosevkaQP.css">
-<link rel="stylesheet" href="../../css/colors-oklch.min.css">
-<link rel="stylesheet" href="../../static/fonts/IosevkaQP/IosevkaQP.css">
-<link rel="stylesheet" href="../../static/fonts/IosevkaTerm/IosevkaTerm.css">
 <meta property="og:title" content="How to Make Dope Slides">
 <meta property="og:description" content="Details of how I create my slides, with Quarto + Reveal.js">
 <meta property="og:image" content="https://samforeman.dev/posts/dope-slides/assets/thumbnail.png">
@@ -342,9 +346,6 @@ gtag('config', 'G-XVM2Y822Y1', { 'anonymize_ip': true});
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -381,7 +382,7 @@ gtag('config', 'G-XVM2Y822Y1', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 29, 2025</p>
+      <p class="date-modified">February 1, 2025</p>
     </div>
   </div>
     
@@ -674,7 +675,7 @@ Figure&nbsp;2: <a href="https://saforem2.github.io/lattice23/#/overview">Overvie
 <div>
 
 </div>
-<div class="quarto-layout-panel" style="display: flex; flex-direction: row; margin-top: -0.0em; align-items: start;" data-layout="[ [50,50] ]">
+<div class="quarto-layout-panel" data-layout="[ [50,50] ]" style="display: flex; flex-direction: row; margin-top: -0.0em; align-items: start;">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div id="fig-mcmc" class="quarto-float quarto-figure quarto-figure-center anchored" style="text-align:center;">
@@ -828,9 +829,9 @@ Figure&nbsp;5: Instructions for building a GitHub page using the <code>docs/</co
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<div id="d2c599e5" class="cell" data-execution_count="1">
+<div id="68135eb7" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f; font-style: italic">Last Updated</span>: <span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">01</span><span style="color: #f06292; text-decoration-color: #f06292">/</span><span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">28</span><span style="color: #f06292; text-decoration-color: #f06292">/</span><span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">2025</span> <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">@</span> <span style="color: #1a8fff; text-decoration-color: #1a8fff; font-weight: bold">12:58:09</span>
+<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><span style="color: #7f7f7f; text-decoration-color: #7f7f7f; font-style: italic">Last Updated</span>: <span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">02</span><span style="color: #f06292; text-decoration-color: #f06292">/</span><span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">01</span><span style="color: #f06292; text-decoration-color: #f06292">/</span><span style="color: #f06292; text-decoration-color: #f06292; font-weight: bold">2025</span> <span style="color: #7f7f7f; text-decoration-color: #7f7f7f">@</span> <span style="color: #1a8fff; text-decoration-color: #1a8fff; font-weight: bold">15:38:41</span>
 </pre>
 </div>
 </div>
@@ -1545,7 +1546,7 @@ loadGiscusWhenReady();
 <span id="cb15-9"><a href="#cb15-9"></a><span class="co">   author: Sam Foreman</span></span>
 <span id="cb15-10"><a href="#cb15-10"></a><span class="co">   type: webpage</span></span>
 <span id="cb15-11"><a href="#cb15-11"></a><span class="co">   title: "How to Make Dope Slides"</span></span>
-<span id="cb15-12"><a href="#cb15-12"></a><span class="co">   url: https://samforeman.me/posts/dope-slides</span></span>
+<span id="cb15-12"><a href="#cb15-12"></a><span class="co">   url: https://samforeman.dev/posts/dope-slides</span></span>
 <span id="cb15-13"><a href="#cb15-13"></a><span class="an">open-graph:</span></span>
 <span id="cb15-14"><a href="#cb15-14"></a><span class="co">  title: "How to Make Dope Slides"</span></span>
 <span id="cb15-15"><a href="#cb15-15"></a><span class="co">  description: "Details of how I create my slides, with Quarto + Reveal.js"</span></span>
@@ -1585,7 +1586,7 @@ loadGiscusWhenReady();
 <span id="cb15-49"><a href="#cb15-49"></a>For this post, I'll focus on the slides I presented at last years [Lattice</span>
 <span id="cb15-50"><a href="#cb15-50"></a>2023](https://indico.fnal.gov/event/57249/contributions/271305/), shown below:</span>
 <span id="cb15-51"><a href="#cb15-51"></a></span>
-<span id="cb15-52"><a href="#cb15-52"></a><span class="co">&lt;!-- ::: {.callout-tip icon=false title="[[**LLMs on Polaris**](https://samforeman.me/talks/llms-on-polaris/#/section) @ [_Center for Scientific Foundation Models_, Summer School 24'](https://scifm.ai/summer_school.html) \[07/2024\]]{.dim-text}" collapse="true" style="width:100%;background-color: rgba(0,0,0,0.0)!important;border:1px solid rgba(131,131,131,0.2)!important;"} --&gt;</span></span>
+<span id="cb15-52"><a href="#cb15-52"></a><span class="co">&lt;!-- ::: {.callout-tip icon=false title="[[**LLMs on Polaris**](https://samforeman.dev/talks/llms-on-polaris/#/section) @ [_Center for Scientific Foundation Models_, Summer School 24'](https://scifm.ai/summer_school.html) \[07/2024\]]{.dim-text}" collapse="true" style="width:100%;background-color: rgba(0,0,0,0.0)!important;border:1px solid rgba(131,131,131,0.2)!important;"} --&gt;</span></span>
 <span id="cb15-53"><a href="#cb15-53"></a>::: {.callout-tip icon="false" title="🪧 [<span class="co">[</span><span class="ot">**MLMC: Machine Learning Monte Carlo**</span><span class="co">](https://saforem2.github.io/lattice23)</span> @ <span class="co">[</span><span class="ot">_Lattice 2023_</span><span class="co">](https://indico.fnal.gov/event/57249/contributions/271305/)</span> <span class="sc">\[</span>07/2023<span class="sc">\]</span>]{.dim-text}" collapse="true" style="width:100%;background-color: rgba(0,0,0,0.0)!important;border:1px solid rgba(131,131,131,0.2)!important;"}</span>
 <span id="cb15-54"><a href="#cb15-54"></a></span>
 <span id="cb15-55"><a href="#cb15-55"></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> loading</span><span class="op">=</span><span class="st">"lazy"</span><span class="ot"> allow</span><span class="op">=</span><span class="st">"picture-in-picture"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"https://saforem2.github.io/lattice23/#/title-slide"</span><span class="ot"> title</span><span class="op">=</span><span class="st">"🪧 MLMC: Machine Learning Monte Carlo"</span><span class="ot"> width</span><span class="op">=</span><span class="st">"100%"</span><span class="ot"> align</span><span class="op">=</span><span class="st">"center"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"500"</span><span class="ot"> frameborder</span><span class="op">=</span><span class="st">"0"</span><span class="ot"> webkitallowfullscreen mozallowfullscreen allowfullscreen style</span><span class="op">=</span><span class="st">"border-radius:0.25rem;border:none;align:center;"</span><span class="dt">&gt;</span></span>
@@ -1798,7 +1799,7 @@ loadGiscusWhenReady();
 <span id="cb15-262"><a href="#cb15-262"></a><span class="in">    [MLMC: Machine Learning Monte Carlo]{.style="color:#939393; font-size:1.5em; font-weight:bold;}  </span></span>
 <span id="cb15-263"><a href="#cb15-263"></a><span class="in">    [for Lattice Gauge Theory]{style="color:#777777; font-size:1.2em; font-weight: bold;"}</span></span>
 <span id="cb15-264"><a href="#cb15-264"></a><span class="in">    [&lt;br&gt;&amp;nbsp;]{style="padding-bottom: 0.5rem;"}  </span></span>
-<span id="cb15-265"><a href="#cb15-265"></a><span class="in">    [{{&lt; fa solid home &gt;}}](https://samforeman.me) Sam Foreman  </span></span>
+<span id="cb15-265"><a href="#cb15-265"></a><span class="in">    [{{&lt; fa solid home &gt;}}](https://samforeman.dev) Sam Foreman  </span></span>
 <span id="cb15-266"><a href="#cb15-266"></a><span class="in">    [Xiao-Yong Jin, James C. Osborn]{.dim-text style="font-size:0.8em;"}  </span></span>
 <span id="cb15-267"><a href="#cb15-267"></a><span class="in">    [[[{{&lt; fa brands github &gt;}} `saforem2/`](https://github.com/saforem2/)]{style="border-bottom: 0.5px solid #00ccff;"}`{`[[`lattice23`](https://github.com/saforem2/lattice23)]{style="border-bottom: 0.5px solid #00ccff;"}, [[`l2hmc-qcd`](https://github.com/saforem2/l2hmc-qcd)]{style="border-bottom: 0.5px solid #00ccff;"}`}`]{style="font-size:0.8em;"}</span></span>
 <span id="cb15-268"><a href="#cb15-268"></a></span>
@@ -2054,7 +2055,7 @@ loadGiscusWhenReady();
 <span id="cb15-520"><a href="#cb15-520"></a><span class="in">```</span></span>
 <span id="cb15-521"><a href="#cb15-521"></a></span>
 <span id="cb15-522"><a href="#cb15-522"></a><span class="dt">&lt;</span><span class="kw">p</span><span class="ot"> align</span><span class="op">=</span><span class="st">"center"</span><span class="dt">&gt;</span></span>
-<span id="cb15-523"><a href="#cb15-523"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://hits.seeyoufarm.com"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> align</span><span class="op">=</span><span class="st">"center"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.me%2Fqmd%2Fdope-slides%2F</span><span class="er">&amp;</span><span class="st">count_bg=%2300CCFF</span><span class="er">&amp;</span><span class="st">title_bg=%23303030</span><span class="er">&amp;</span><span class="st">icon=</span><span class="er">&amp;</span><span class="st">icon_color=%23E7E7E7</span><span class="er">&amp;</span><span class="st">title=hits</span><span class="er">&amp;</span><span class="st">edge_flat=false"</span><span class="dt">/&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
+<span id="cb15-523"><a href="#cb15-523"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">"https://hits.seeyoufarm.com"</span><span class="dt">&gt;&lt;</span><span class="kw">img</span><span class="ot"> align</span><span class="op">=</span><span class="st">"center"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.dev%2Fqmd%2Fdope-slides%2F</span><span class="er">&amp;</span><span class="st">count_bg=%2300CCFF</span><span class="er">&amp;</span><span class="st">title_bg=%23303030</span><span class="er">&amp;</span><span class="st">icon=</span><span class="er">&amp;</span><span class="st">icon_color=%23E7E7E7</span><span class="er">&amp;</span><span class="st">title=hits</span><span class="er">&amp;</span><span class="st">edge_flat=false"</span><span class="dt">/&gt;&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span>
 <span id="cb15-524"><a href="#cb15-524"></a><span class="dt">&lt;/</span><span class="kw">p</span><span class="dt">&gt;</span></span>
 <span id="cb15-525"><a href="#cb15-525"></a></span>
 <span id="cb15-526"><a href="#cb15-526"></a>:::</span>

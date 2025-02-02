@@ -66,9 +66,9 @@ Sam Foreman
 ## 👀 Overview
 
 - 📊 Slides @
-  [samforeman.me/talks/ai-for-science-2024/slides](https://samforeman.me/talks/ai-for-science-2024/slides)
+  [samforeman.dev/talks/ai-for-science-2024/slides](https://samforeman.dev/talks/ai-for-science-2024/slides)
   - 📄 HTML version:
-    [samforeman.me/talks/ai-for-science-2024](https://samforeman.me/talks/ai-for-science-2024)
+    [samforeman.dev/talks/ai-for-science-2024](https://samforeman.dev/talks/ai-for-science-2024)
 - 
   [argonne-lcf/`ai-science-training-series`](https://github.com/argonne-lcf/ai-science-training-series)
   - [Series
@@ -1710,7 +1710,7 @@ Figure 27: Training a LLM to talk like Shakespeare using
 
   <split even>
 
-  [<i class="fas fa-home"></i>](https://samforeman.me)
+  [<i class="fas fa-home"></i>](https://samforeman.dev)
   [<i class="far fa-paper-plane"></i>](mailto:foremans@anl.gov)
   [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 

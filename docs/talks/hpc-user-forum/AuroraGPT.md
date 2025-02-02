@@ -524,18 +524,19 @@ style="background: oklch(from #E90102 calc(l * 1.15) c h / 0.1); border: 1px sol
 
 <div class="col1">
 
-- 🏡 [samforeman.me](https://samforeman.me):
-  - 🦜 [Talks](https://samforeman.me/talks/):
-    - [HPC User Forum](https://samforeman.me/talks/hpc-user-forum/)
-      \[[slides](https://samforeman.me/talks/hpc-user-forum/slides.html)\]
+- 🏡 [samforeman.dev](https://samforeman.dev):
+  - 🦜 [Talks](https://samforeman.dev/talks/):
+    - [HPC User Forum](https://samforeman.dev/talks/hpc-user-forum/)
+      \[[slides](https://samforeman.dev/talks/hpc-user-forum/slides.html)\]
 - See my other slides on:
   - [LLMs from Scratch](https://saforem2.github.io/llm-workshop-talk)
   - [Creating Small(~ish) LLMs](https://saforem2.github.io/LLM-tutorial)
   - [Parallel Training
     Techniques](https://saforem2.github.io/parallel-training-slides)
   - [LLMs on
-    Polaris](https://samforeman.me/talks/llms-on-polaris/#/title-slide)
-  - [Training LLMs at Scale](https://samforeman.me/talks/llms-at-scale/)
+    Polaris](https://samforeman.dev/talks/llms-on-polaris/#/title-slide)
+  - [Training LLMs at
+    Scale](https://samforeman.dev/talks/llms-at-scale/)
 
 </div>
 
@@ -571,7 +572,7 @@ style="background: oklch(from #E90102 calc(l * 1.15) c h / 0.1); border: 1px sol
 
   <split even>
 
-  [<i class="fas fa-home"></i>](https://samforeman.me)
+  [<i class="fas fa-home"></i>](https://samforeman.dev)
   [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
   [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 
@@ -644,7 +645,7 @@ style="height:50pt;" />
   Microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed) team to
   enable longer sequence lengths (context windows) for LLMs
   - See my [blog
-    post](https://samforeman.me/posts/auroragpt/long-sequences/) for
+    post](https://samforeman.dev/posts/auroragpt/long-sequences/) for
     additional details
 
 <div id="fig-long-seq">

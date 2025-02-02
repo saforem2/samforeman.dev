@@ -28,7 +28,7 @@ open-graph:
 citation:
    author: Sam Foreman
    type: speech
-   url: https://samforeman.me/talks/alcf-hpc-workshop-2024/slides
+   url: https://samforeman.dev/talks/alcf-hpc-workshop-2024/slides
 # toc-expand: true
 format:
   html:
@@ -36,8 +36,8 @@ format:
   # revealjs:
   #   pdf-separate-fragments: true
   #   center: true
-  #   footer: "[samforeman.me/talks/hpc-user-forum/slides](https://samforeman.me/talks/hpc-user-forum/slides)"
-  #   slide-url: https://samforeman.me/talks/hpc-user-forum/slides.html
+  #   footer: "[samforeman.dev/talks/hpc-user-forum/slides](https://samforeman.dev/talks/hpc-user-forum/slides)"
+  #   slide-url: https://samforeman.dev/talks/hpc-user-forum/slides.html
   revealjs:
     # auto-stretch: true
     callout-style: simple
@@ -56,8 +56,8 @@ format:
     #     white
     pdf-separate-fragments: true
     center: true
-    footer: "[samforeman.me/talks/alcf-hpc-workshop-2024/slides](https://samforeman.me/talks/alcf-hpc-workshop-2024/slides)"
-    slide-url: https://samforeman.me/talks/alcf-hpc-workshop-2024/slides.html
+    footer: "[samforeman.dev/talks/alcf-hpc-workshop-2024/slides](https://samforeman.dev/talks/alcf-hpc-workshop-2024/slides)"
+    slide-url: https://samforeman.dev/talks/alcf-hpc-workshop-2024/slides.html
     shift-heading-level-by: -1
     # template-partials:
     #   - title-slide.html
@@ -120,8 +120,8 @@ format:
 - [ALCF Hands-on HPC Workshop](https://www.alcf.anl.gov/events/2024-alcf-hands-hpc-workshop)
   - {{< fa brands github >}} [`argonne-lcf/ALCF_Hands_on_HPC_Workshop`](https://github.com/argonne-lcf/ALCF_Hands_on_HPC_Workshop)
 
-- Slides @ [samforeman.me/talks/alcf-hpc-workshop-2024/slides](https://samforeman.me/talks/alcf-hpc-workshop-2024/slides)
-  - HTML Version: [samforeman.me/talks/alcf-hpc-workshop-2024](https://samforeman.me/talks/alcf-hpc-workshop-2024)
+- Slides @ [samforeman.dev/talks/alcf-hpc-workshop-2024/slides](https://samforeman.dev/talks/alcf-hpc-workshop-2024/slides)
+  - HTML Version: [samforeman.dev/talks/alcf-hpc-workshop-2024](https://samforeman.dev/talks/alcf-hpc-workshop-2024)
 
 ## 🚀 Scaling: Overview {background-color="white"}
 
@@ -1542,7 +1542,7 @@ Example: Training a LLM to talk like Shakespeare using [`saforem2/wordplay` 🎮
 
     <split even>
 
-    [<i class="fas fa-home"></i>](https://samforeman.me)
+    [<i class="fas fa-home"></i>](https://samforeman.dev)
     [<i class="far fa-paper-plane"></i>](mailto:///foremans@anl.gov)
     [<i class="fab fa-twitter"></i>](https://www.twitter.com/saforem2)
 

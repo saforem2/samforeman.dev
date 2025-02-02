@@ -6,7 +6,7 @@
     - AI / ML [Group](https://www.alcf.anl.gov/about/people/group/506) @ [ALCF](https://alcf.anl.gov)
 - Working on:
     - 🧪 {AI, HPC} for [science](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=vV_1zDwAAAAJ)
-    - 🚀 [training large models](https://samforeman.me/talks/AuroraGPT/alcf-hpc-workshop-2024/slides.html) on [supercomputers](https://www.alcf.anl.gov/aurora)
+    - 🚀 [training large models](https://samforeman.dev/talks/AuroraGPT/alcf-hpc-workshop-2024/slides.html) on [supercomputers](https://www.alcf.anl.gov/aurora)
 
 <!--[^mprot]: [MProt-DPO: Breaking the ExaFLOPS Barrier for Multimodal Protein Design Workflows with Direct Preference Optimization](https://dl.acm.org/doi/abs/10.1109/SC41406.2024.00013)-->
 <!--[^lqcd]: [Deep Learning Hamiltonian Monte Carlo](https://arxiv.org/abs/2105.03418)-->

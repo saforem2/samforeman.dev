@@ -74,10 +74,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d79fd6b452afc0040f5f6797f0b4a489.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-e1c27e27639cc505bf0ce20e4d8f4b53.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b0a49423dfe27e3da08b2797d40a06ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-7dfc1e506f2a7897d6d8a28faea79e70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-330cce3467cec7d63f7f78bc2c811809.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-aa757da08b0cdafd807af638cb41caa6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -142,9 +144,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-XVM2Y822Y1', { 'anonymize_ip': true});
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC329HJ');</script>
-<!-- End Google Tag Manager -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+DisplaySF+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+DisplaySF:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
@@ -156,6 +155,9 @@ gtag('config', 'G-XVM2Y822Y1', { 'anonymize_ip': true});
 <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-title" content="samforeman">
 <link rel="manifest" href="../assets/favicon/site.webmanifest">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TL25HPPF');</script>
+<!-- End Google Tag Manager -->
 
   <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
   <script>document.addEventListener("DOMContentLoaded", function () {
@@ -201,13 +203,12 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../css/custom.css">
-<link rel="stylesheet" href="../css/svgbob.css">
+<link rel="stylesheet" href="../style/mermaid.css">
+<link rel="stylesheet" href="../style/custom.css">
+<link rel="stylesheet" href="../style/svgbob.css">
 <link rel="stylesheet" href="../static/fonts/IosevkaTerm/IosevkaTerm.css">
 <link rel="stylesheet" href="../static/fonts/IosevkaQP/IosevkaQP.css">
-<link rel="stylesheet" href="../css/colors-oklch.min.css">
-<link rel="stylesheet" href="../static/fonts/IosevkaQP/IosevkaQP.css">
-<link rel="stylesheet" href="../static/fonts/IosevkaTerm/IosevkaTerm.css">
+<link rel="stylesheet" href="../style/colors-oklch.min.css">
 <meta property="og:title" content="Sam Foreman">
 <meta property="og:image" content="https://github.com/saforem2/personal_site/blob/main/assets/thumbnail.png?raw=true">
 <meta property="og:site_name" content="Sam Foreman">
@@ -391,9 +392,6 @@ window.Quarto = {
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(16)</span></div><div class="category" data-category="QXVyb3JhR1BU">AuroraGPT <span class="quarto-category-count">(8)</span></div><div class="category" data-category="TUw=">ML <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YWk0c2NpZW5jZQ==">ai4science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGlhZ3JhbXM=">diagrams <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXpweg==">ezpz <span class="quarto-category-count">(2)</span></div><div class="category" data-category="c3R5bGU=">style <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TC329HJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">

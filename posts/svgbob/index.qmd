@@ -12,7 +12,7 @@ citation:
    author: Sam Foreman
    type: webpage
    title: "svgbob"
-   url: https://samforeman.me/posts/svgbob
+   url: https://samforeman.dev/posts/svgbob
 open-graph:
   title: "svgbob"
   image: "./assets/thumbnail.png"

@@ -9,7 +9,7 @@ citation:
    author: Sam Foreman
    type: webpage
    title: "Spike Skipper"
-   url: https://samforeman.me/posts/AuroraGPT/spike-skipper
+   url: https://samforeman.dev/posts/AuroraGPT/spike-skipper
 open-graph:
   title: "Spike Skipper"
   # description: "Details of how I create my slides, with Quarto + Reveal.js"

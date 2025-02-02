@@ -6,7 +6,7 @@ site-url: "https://samforeman.dev"
 repo-actions: false
 appendix-site-as: false
 body-footer: |
-    <img src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.me&count_bg=%23838383&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false'>
+    <img src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.dev&count_bg=%23838383&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false'>
 code-tools: false
 citation: false
 toc: false
@@ -21,7 +21,7 @@ format:
   html:
     #850px page-layout: article
     css:
-      - css/profile.css
+      - style/profile.css
     # grid:
     #   body-width: 800px
   gfm:
@@ -95,7 +95,7 @@ listing:
 
 ::: {style="display: flex; flex-direction: row; align-items: center; text-align: center!important; justify-content: center; background-color: var(--link-bg-color);"}
 
-[[{{< iconify ph house inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://samforeman.me)
+[[{{< iconify ph house inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://samforeman.dev)
 [[{{< iconify ph github-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://github.com/saforem2/)
 [[{{< iconify ph twitter-logo inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](https://www.twitter.com/saforem2)
 [[{{< iconify ph envelope-open inline=true >}}]{.icon .dim-text style="font-size: 1.5rem; padding-right:0pt;"}](mailto:///foremans@anl.gov)
@@ -109,7 +109,7 @@ listing:
 
 :::
 
-::: {.panel-tabset style="justify-content: center;"}
+::: {.panel-tabset style='justify-content: center;'}
 
 ### 🧑🏻‍💻 About {#sec-about}
 
@@ -209,9 +209,9 @@ print(' '.join([
 ```
 
 ::: {style="text-align:center;"}
-[© Copyright [Sam Foreman](https://samforeman.me)]{.dim-text}
+[© Copyright [Sam Foreman](https://samforeman.dev)]{.dim-text}
 
-<img src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.me&count_bg=%23838383&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false'>
+<img src='https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsamforeman.dev&count_bg=%23838383&title_bg=%23303030&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false'>
 :::
 
 :::
@@ -234,8 +234,8 @@ See 'em all, live: [Talks](/talks/index.qmd)
 Convert from HTML to slideshow version of a page by appending `/slides` to the
 end of its URL, e.g.
 
-- HTML: <https://samforeman.me/talks/ai-for-science-2024/>
-- Slides: <https://samforeman.me/talks/ai-for-science-2024/slides>
+- HTML: <https://samforeman.dev/talks/ai-for-science-2024/>
+- Slides: <https://samforeman.dev/talks/ai-for-science-2024/slides>
 :::
 
 ::: {#listing-talks}
